@@ -1,0 +1,106 @@
+﻿structure,loot_table_observed,book_id,book_name_fr,probability_percent,roll_min,roll_max,source_path,source_line,status
+ancient_city,minecraft:chests/ancient_city,swift_sneak,Manuscrit de Furtivité,8,1,8,data/attuned/function/loot/structure/ancient_city.mcfunction,4,Relié à un advancement de génération de butin
+ancient_city,minecraft:chests/ancient_city,second_wind,Manuel : Second souffle,5,9,13,data/attuned/function/loot/structure/ancient_city.mcfunction,5,Relié à un advancement de génération de butin
+ancient_city,minecraft:chests/ancient_city,bind,Manuel : Entrave,4,14,17,data/attuned/function/loot/structure/ancient_city.mcfunction,6,Relié à un advancement de génération de butin
+ancient_city,minecraft:chests/ancient_city,vitality,Tome de Vitalité,3,18,20,data/attuned/function/loot/structure/ancient_city.mcfunction,7,Relié à un advancement de génération de butin
+ancient_city,minecraft:chests/ancient_city,riposte,Manuel : Riposte,3,21,23,data/attuned/function/loot/structure/ancient_city.mcfunction,8,Relié à un advancement de génération de butin
+ancient_city,minecraft:chests/ancient_city,abyssal_guard,Manuel : Garde abyssale,3,24,26,data/attuned/function/loot/structure/ancient_city.mcfunction,9,Relié à un advancement de génération de butin
+bastion_other,minecraft:chests/bastion_other,soul_speed,Traité des Âmes,5,1,5,data/attuned/function/loot/structure/bastion_other.mcfunction,4,Relié à un advancement de génération de butin
+bastion_other,minecraft:chests/bastion_other,infernal_edge,Manuel : Lame infernale,4,6,9,data/attuned/function/loot/structure/bastion_other.mcfunction,5,Relié à un advancement de génération de butin
+bastion_other,minecraft:chests/bastion_other,bastion,Manuel : Bastion,4,10,13,data/attuned/function/loot/structure/bastion_other.mcfunction,6,Relié à un advancement de génération de butin
+bastion_other,minecraft:chests/bastion_other,vigor,Tome de Vigueur,3,14,16,data/attuned/function/loot/structure/bastion_other.mcfunction,7,Relié à un advancement de génération de butin
+bastion_treasure,minecraft:chests/bastion_treasure,soul_speed,Traité des Âmes,7,1,7,data/attuned/function/loot/structure/bastion_treasure.mcfunction,4,Relié à un advancement de génération de butin
+bastion_treasure,minecraft:chests/bastion_treasure,infernal_edge,Manuel : Lame infernale,6,8,13,data/attuned/function/loot/structure/bastion_treasure.mcfunction,5,Relié à un advancement de génération de butin
+bastion_treasure,minecraft:chests/bastion_treasure,bastion,Manuel : Bastion,5,14,18,data/attuned/function/loot/structure/bastion_treasure.mcfunction,6,Relié à un advancement de génération de butin
+bastion_treasure,minecraft:chests/bastion_treasure,second_wind,Manuel : Second souffle,3,19,21,data/attuned/function/loot/structure/bastion_treasure.mcfunction,7,Relié à un advancement de génération de butin
+bastion_treasure,minecraft:chests/bastion_treasure,vitality,Tome de Vitalité,2,22,23,data/attuned/function/loot/structure/bastion_treasure.mcfunction,8,Relié à un advancement de génération de butin
+buried_treasure,minecraft:chests/buried_treasure,abyssal_guard,Manuel : Garde abyssale,8,1,8,data/attuned/function/loot/structure/buried_treasure.mcfunction,4,Relié à un advancement de génération de butin
+buried_treasure,minecraft:chests/buried_treasure,vitality,Tome de Vitalité,4,9,12,data/attuned/function/loot/structure/buried_treasure.mcfunction,5,Relié à un advancement de génération de butin
+buried_treasure,minecraft:chests/buried_treasure,endurance,Manuel : Endurance,3,13,15,data/attuned/function/loot/structure/buried_treasure.mcfunction,6,Relié à un advancement de génération de butin
+desert_pyramid,minecraft:chests/desert_pyramid,longshot,Manuel : Longue portée,4,1,4,data/attuned/function/loot/structure/desert_pyramid.mcfunction,4,Relié à un advancement de génération de butin
+desert_pyramid,minecraft:chests/desert_pyramid,feather_step,Manuel : Pas léger,4,5,8,data/attuned/function/loot/structure/desert_pyramid.mcfunction,5,Relié à un advancement de génération de butin
+desert_pyramid,minecraft:chests/desert_pyramid,impact,Manuel : Impact,3,9,11,data/attuned/function/loot/structure/desert_pyramid.mcfunction,6,Relié à un advancement de génération de butin
+desert_pyramid,minecraft:chests/desert_pyramid,vigor,Tome de Vigueur,2,12,13,data/attuned/function/loot/structure/desert_pyramid.mcfunction,7,Relié à un advancement de génération de butin
+end_city,minecraft:chests/end_city_treasure,longshot,Manuel : Longue portée,5,1,5,data/attuned/function/loot/structure/end_city.mcfunction,4,Relié à un advancement de génération de butin
+end_city,minecraft:chests/end_city_treasure,reach,Manuel : Allonge,4,6,9,data/attuned/function/loot/structure/end_city.mcfunction,5,Relié à un advancement de génération de butin
+end_city,minecraft:chests/end_city_treasure,second_wind,Manuel : Second souffle,4,10,13,data/attuned/function/loot/structure/end_city.mcfunction,6,Relié à un advancement de génération de butin
+end_city,minecraft:chests/end_city_treasure,mending,Codex du Raccommodage,3,14,16,data/attuned/function/loot/structure/end_city.mcfunction,7,Relié à un advancement de génération de butin
+end_city,minecraft:chests/end_city_treasure,vigor,Tome de Vigueur,3,17,19,data/attuned/function/loot/structure/end_city.mcfunction,8,Relié à un advancement de génération de butin
+igloo_chest,minecraft:chests/igloo_chest,second_wind,Manuel : Second souffle,4,1,4,data/attuned/function/loot/structure/igloo_chest.mcfunction,4,Relié à un advancement de génération de butin
+igloo_chest,minecraft:chests/igloo_chest,endurance,Manuel : Endurance,3,5,7,data/attuned/function/loot/structure/igloo_chest.mcfunction,5,Relié à un advancement de génération de butin
+igloo_chest,minecraft:chests/igloo_chest,vitality,Tome de Vitalité,2,8,9,data/attuned/function/loot/structure/igloo_chest.mcfunction,6,Relié à un advancement de génération de butin
+jungle_temple,minecraft:chests/jungle_temple,lumberjack,Manuel : Bûcheron,4,1,4,data/attuned/function/loot/structure/jungle_temple.mcfunction,4,Relié à un advancement de génération de butin
+jungle_temple,minecraft:chests/jungle_temple,harvest,Manuel : Moisson,4,5,8,data/attuned/function/loot/structure/jungle_temple.mcfunction,5,Relié à un advancement de génération de butin
+jungle_temple,minecraft:chests/jungle_temple,siphon,Manuel : Siphon,3,9,11,data/attuned/function/loot/structure/jungle_temple.mcfunction,6,Relié à un advancement de génération de butin
+jungle_temple,minecraft:chests/jungle_temple,bind,Manuel : Entrave,3,12,14,data/attuned/function/loot/structure/jungle_temple.mcfunction,7,Relié à un advancement de génération de butin
+mineshaft,minecraft:chests/abandoned_mineshaft,excavation,Manuel : Excavation,5,1,5,data/attuned/function/loot/structure/mineshaft.mcfunction,4,Relié à un advancement de génération de butin
+mineshaft,minecraft:chests/abandoned_mineshaft,reach,Manuel : Allonge,4,6,9,data/attuned/function/loot/structure/mineshaft.mcfunction,5,Relié à un advancement de génération de butin
+mineshaft,minecraft:chests/abandoned_mineshaft,endurance,Manuel : Endurance,4,10,13,data/attuned/function/loot/structure/mineshaft.mcfunction,6,Relié à un advancement de génération de butin
+mineshaft,minecraft:chests/abandoned_mineshaft,lumberjack,Manuel : Bûcheron,2,14,15,data/attuned/function/loot/structure/mineshaft.mcfunction,7,Relié à un advancement de génération de butin
+nether_fortress,minecraft:chests/nether_bridge,soul_speed,Traité des Âmes,6,1,6,data/attuned/function/loot/structure/nether_fortress.mcfunction,4,Relié à un advancement de génération de butin
+nether_fortress,minecraft:chests/nether_bridge,infernal_edge,Manuel : Lame infernale,7,7,13,data/attuned/function/loot/structure/nether_fortress.mcfunction,5,Relié à un advancement de génération de butin
+nether_fortress,minecraft:chests/nether_bridge,siphon,Manuel : Siphon,4,14,17,data/attuned/function/loot/structure/nether_fortress.mcfunction,6,Relié à un advancement de génération de butin
+nether_fortress,minecraft:chests/nether_bridge,endurance,Manuel : Endurance,3,18,20,data/attuned/function/loot/structure/nether_fortress.mcfunction,7,Relié à un advancement de génération de butin
+pillager_outpost,minecraft:chests/pillager_outpost,impact,Manuel : Impact,4,1,4,data/attuned/function/loot/structure/pillager_outpost.mcfunction,4,Relié à un advancement de génération de butin
+pillager_outpost,minecraft:chests/pillager_outpost,bastion,Manuel : Bastion,4,5,8,data/attuned/function/loot/structure/pillager_outpost.mcfunction,5,Relié à un advancement de génération de butin
+pillager_outpost,minecraft:chests/pillager_outpost,riposte,Manuel : Riposte,3,9,11,data/attuned/function/loot/structure/pillager_outpost.mcfunction,6,Relié à un advancement de génération de butin
+pillager_outpost,minecraft:chests/pillager_outpost,rapid_mechanism,Manuel : Mécanisme rapide,3,12,14,data/attuned/function/loot/structure/pillager_outpost.mcfunction,7,Relié à un advancement de génération de butin
+pillager_outpost,minecraft:chests/pillager_outpost,reinforced_piercing,Manuel : Perforation renforcée,3,15,17,data/attuned/function/loot/structure/pillager_outpost.mcfunction,8,Relié à un advancement de génération de butin
+pillager_outpost,minecraft:chests/pillager_outpost,volley,Manuel : Volée,2,18,19,data/attuned/function/loot/structure/pillager_outpost.mcfunction,9,Relié à un advancement de génération de butin
+pillager_outpost,minecraft:chests/pillager_outpost,siege,Manuel : Siège,3,20,22,data/attuned/function/loot/structure/pillager_outpost.mcfunction,10,Relié à un advancement de génération de butin
+ruined_portal,minecraft:chests/ruined_portal,infernal_edge,Manuel : Lame infernale,5,1,5,data/attuned/function/loot/structure/ruined_portal.mcfunction,4,Relié à un advancement de génération de butin
+ruined_portal,minecraft:chests/ruined_portal,longshot,Manuel : Longue portée,3,6,8,data/attuned/function/loot/structure/ruined_portal.mcfunction,5,Relié à un advancement de génération de butin
+ruined_portal,minecraft:chests/ruined_portal,endurance,Manuel : Endurance,3,9,11,data/attuned/function/loot/structure/ruined_portal.mcfunction,6,Relié à un advancement de génération de butin
+shipwreck_treasure,minecraft:chests/shipwreck_treasure,abyssal_guard,Manuel : Garde abyssale,6,1,6,data/attuned/function/loot/structure/shipwreck_treasure.mcfunction,4,Relié à un advancement de génération de butin
+shipwreck_treasure,minecraft:chests/shipwreck_treasure,feather_step,Manuel : Pas léger,3,7,9,data/attuned/function/loot/structure/shipwreck_treasure.mcfunction,5,Relié à un advancement de génération de butin
+shipwreck_treasure,minecraft:chests/shipwreck_treasure,mending,Codex du Raccommodage,2,10,11,data/attuned/function/loot/structure/shipwreck_treasure.mcfunction,6,Relié à un advancement de génération de butin
+simple_dungeon,minecraft:chests/simple_dungeon,vitality,Tome de Vitalité,3,1,3,data/attuned/function/loot/structure/simple_dungeon.mcfunction,4,Relié à un advancement de génération de butin
+simple_dungeon,minecraft:chests/simple_dungeon,siphon,Manuel : Siphon,3,4,6,data/attuned/function/loot/structure/simple_dungeon.mcfunction,5,Relié à un advancement de génération de butin
+simple_dungeon,minecraft:chests/simple_dungeon,endurance,Manuel : Endurance,3,7,9,data/attuned/function/loot/structure/simple_dungeon.mcfunction,6,Relié à un advancement de génération de butin
+simple_dungeon,minecraft:chests/simple_dungeon,execution,Manuel : Exécution,2,10,11,data/attuned/function/loot/structure/simple_dungeon.mcfunction,7,Relié à un advancement de génération de butin
+stronghold_library,minecraft:chests/stronghold_library,mending,Codex du Raccommodage,4,1,4,data/attuned/function/loot/structure/stronghold_library.mcfunction,4,Relié à un advancement de génération de butin
+stronghold_library,minecraft:chests/stronghold_library,execution,Manuel : Exécution,3,5,7,data/attuned/function/loot/structure/stronghold_library.mcfunction,5,Relié à un advancement de génération de butin
+stronghold_library,minecraft:chests/stronghold_library,longshot,Manuel : Longue portée,3,8,10,data/attuned/function/loot/structure/stronghold_library.mcfunction,6,Relié à un advancement de génération de butin
+stronghold_library,minecraft:chests/stronghold_library,second_wind,Manuel : Second souffle,3,11,13,data/attuned/function/loot/structure/stronghold_library.mcfunction,7,Relié à un advancement de génération de butin
+stronghold_library,minecraft:chests/stronghold_library,endurance,Manuel : Endurance,3,14,16,data/attuned/function/loot/structure/stronghold_library.mcfunction,8,Relié à un advancement de génération de butin
+stronghold_library,minecraft:chests/stronghold_library,reach,Manuel : Allonge,3,17,19,data/attuned/function/loot/structure/stronghold_library.mcfunction,9,Relié à un advancement de génération de butin
+trial_ominous,minecraft:chests/trial_chambers/reward_ominous,wind_burst,Tome de la Rafale,8,1,8,data/attuned/function/loot/structure/trial_ominous.mcfunction,4,Condition du déclencheur Vault à vérifier en jeu
+trial_ominous,minecraft:chests/trial_chambers/reward_ominous,volley,Manuel : Volée,6,9,14,data/attuned/function/loot/structure/trial_ominous.mcfunction,5,Condition du déclencheur Vault à vérifier en jeu
+trial_ominous,minecraft:chests/trial_chambers/reward_ominous,siege,Manuel : Siège,6,15,20,data/attuned/function/loot/structure/trial_ominous.mcfunction,6,Condition du déclencheur Vault à vérifier en jeu
+trial_ominous,minecraft:chests/trial_chambers/reward_ominous,second_wind,Manuel : Second souffle,5,21,25,data/attuned/function/loot/structure/trial_ominous.mcfunction,7,Condition du déclencheur Vault à vérifier en jeu
+trial_ominous,minecraft:chests/trial_chambers/reward_ominous,vitality,Tome de Vitalité,3,26,28,data/attuned/function/loot/structure/trial_ominous.mcfunction,8,Condition du déclencheur Vault à vérifier en jeu
+trial_reward,minecraft:chests/trial_chambers/reward,wind_burst,Tome de la Rafale,6,1,6,data/attuned/function/loot/structure/trial_reward.mcfunction,4,Condition du déclencheur Vault à vérifier en jeu
+trial_reward,minecraft:chests/trial_chambers/reward,volley,Manuel : Volée,5,7,11,data/attuned/function/loot/structure/trial_reward.mcfunction,5,Condition du déclencheur Vault à vérifier en jeu
+trial_reward,minecraft:chests/trial_chambers/reward,siege,Manuel : Siège,5,12,16,data/attuned/function/loot/structure/trial_reward.mcfunction,6,Condition du déclencheur Vault à vérifier en jeu
+trial_reward,minecraft:chests/trial_chambers/reward,riposte,Manuel : Riposte,4,17,20,data/attuned/function/loot/structure/trial_reward.mcfunction,7,Condition du déclencheur Vault à vérifier en jeu
+trial_reward,minecraft:chests/trial_chambers/reward,vigor,Tome de Vigueur,3,21,23,data/attuned/function/loot/structure/trial_reward.mcfunction,8,Condition du déclencheur Vault à vérifier en jeu
+underwater_ruin_big,minecraft:chests/underwater_ruin_big,abyssal_guard,Manuel : Garde abyssale,6,1,6,data/attuned/function/loot/structure/underwater_ruin_big.mcfunction,4,Relié à un advancement de génération de butin
+underwater_ruin_big,minecraft:chests/underwater_ruin_big,harvest,Manuel : Moisson,3,7,9,data/attuned/function/loot/structure/underwater_ruin_big.mcfunction,5,Relié à un advancement de génération de butin
+underwater_ruin_big,minecraft:chests/underwater_ruin_big,vigor,Tome de Vigueur,2,10,11,data/attuned/function/loot/structure/underwater_ruin_big.mcfunction,6,Relié à un advancement de génération de butin
+underwater_ruin_small,minecraft:chests/underwater_ruin_small,abyssal_guard,Manuel : Garde abyssale,4,1,4,data/attuned/function/loot/structure/underwater_ruin_small.mcfunction,4,Relié à un advancement de génération de butin
+underwater_ruin_small,minecraft:chests/underwater_ruin_small,feather_step,Manuel : Pas léger,2,5,6,data/attuned/function/loot/structure/underwater_ruin_small.mcfunction,5,Relié à un advancement de génération de butin
+village_cartographer,minecraft:chests/village/village_cartographer,vigor,Tome de Vigueur,3,1,3,data/attuned/function/loot/structure/village_cartographer.mcfunction,4,Relié à un advancement de génération de butin
+village_cartographer,minecraft:chests/village/village_cartographer,longshot,Manuel : Longue portée,3,4,6,data/attuned/function/loot/structure/village_cartographer.mcfunction,5,Relié à un advancement de génération de butin
+village_cartographer,minecraft:chests/village/village_cartographer,reach,Manuel : Allonge,2,7,8,data/attuned/function/loot/structure/village_cartographer.mcfunction,6,Relié à un advancement de génération de butin
+village_temple,minecraft:chests/village/village_temple,vitality,Tome de Vitalité,4,1,4,data/attuned/function/loot/structure/village_temple.mcfunction,4,Relié à un advancement de génération de butin
+village_temple,minecraft:chests/village/village_temple,mending,Codex du Raccommodage,3,5,7,data/attuned/function/loot/structure/village_temple.mcfunction,5,Relié à un advancement de génération de butin
+village_temple,minecraft:chests/village/village_temple,harvest,Manuel : Moisson,3,8,10,data/attuned/function/loot/structure/village_temple.mcfunction,6,Relié à un advancement de génération de butin
+village_temple,minecraft:chests/village/village_temple,second_wind,Manuel : Second souffle,2,11,12,data/attuned/function/loot/structure/village_temple.mcfunction,7,Relié à un advancement de génération de butin
+village_toolsmith,minecraft:chests/village/village_toolsmith,dexterity,Tome de Dextérité,4,1,4,data/attuned/function/loot/structure/village_toolsmith.mcfunction,4,Relié à un advancement de génération de butin
+village_toolsmith,minecraft:chests/village/village_toolsmith,excavation,Manuel : Excavation,4,5,8,data/attuned/function/loot/structure/village_toolsmith.mcfunction,5,Relié à un advancement de génération de butin
+village_toolsmith,minecraft:chests/village/village_toolsmith,endurance,Manuel : Endurance,3,9,11,data/attuned/function/loot/structure/village_toolsmith.mcfunction,6,Relié à un advancement de génération de butin
+village_toolsmith,minecraft:chests/village/village_toolsmith,reach,Manuel : Allonge,2,12,13,data/attuned/function/loot/structure/village_toolsmith.mcfunction,7,Relié à un advancement de génération de butin
+village_toolsmith,minecraft:chests/village/village_toolsmith,lumberjack,Manuel : Bûcheron,3,14,16,data/attuned/function/loot/structure/village_toolsmith.mcfunction,8,Relié à un advancement de génération de butin
+village_toolsmith,minecraft:chests/village/village_toolsmith,harvest,Manuel : Moisson,2,17,18,data/attuned/function/loot/structure/village_toolsmith.mcfunction,9,Relié à un advancement de génération de butin
+village_weaponsmith,minecraft:chests/village/village_weaponsmith,execution,Manuel : Exécution,4,1,4,data/attuned/function/loot/structure/village_weaponsmith.mcfunction,4,Relié à un advancement de génération de butin
+village_weaponsmith,minecraft:chests/village/village_weaponsmith,impact,Manuel : Impact,3,5,7,data/attuned/function/loot/structure/village_weaponsmith.mcfunction,5,Relié à un advancement de génération de butin
+village_weaponsmith,minecraft:chests/village/village_weaponsmith,endurance,Manuel : Endurance,2,8,9,data/attuned/function/loot/structure/village_weaponsmith.mcfunction,6,Relié à un advancement de génération de butin
+village_weaponsmith,minecraft:chests/village/village_weaponsmith,infernal_edge,Manuel : Lame infernale,3,10,12,data/attuned/function/loot/structure/village_weaponsmith.mcfunction,7,Relié à un advancement de génération de butin
+village_weaponsmith,minecraft:chests/village/village_weaponsmith,siphon,Manuel : Siphon,2,13,14,data/attuned/function/loot/structure/village_weaponsmith.mcfunction,8,Relié à un advancement de génération de butin
+woodland_mansion,minecraft:chests/woodland_mansion,siphon,Manuel : Siphon,5,1,5,data/attuned/function/loot/structure/woodland_mansion.mcfunction,4,Relié à un advancement de génération de butin
+woodland_mansion,minecraft:chests/woodland_mansion,bind,Manuel : Entrave,4,6,9,data/attuned/function/loot/structure/woodland_mansion.mcfunction,5,Relié à un advancement de génération de butin
+woodland_mansion,minecraft:chests/woodland_mansion,riposte,Manuel : Riposte,4,10,13,data/attuned/function/loot/structure/woodland_mansion.mcfunction,6,Relié à un advancement de génération de butin
+woodland_mansion,minecraft:chests/woodland_mansion,second_wind,Manuel : Second souffle,3,14,16,data/attuned/function/loot/structure/woodland_mansion.mcfunction,7,Relié à un advancement de génération de butin
+woodland_mansion,minecraft:chests/woodland_mansion,mending,Codex du Raccommodage,2,17,18,data/attuned/function/loot/structure/woodland_mansion.mcfunction,8,Relié à un advancement de génération de butin
+woodland_mansion,minecraft:chests/woodland_mansion,execution,Manuel : Exécution,3,19,21,data/attuned/function/loot/structure/woodland_mansion.mcfunction,9,Relié à un advancement de génération de butin
+woodland_mansion,minecraft:chests/woodland_mansion,bastion,Manuel : Bastion,3,22,24,data/attuned/function/loot/structure/woodland_mansion.mcfunction,10,Relié à un advancement de génération de butin

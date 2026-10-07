@@ -1,0 +1,18 @@
+{
+  "repository": "ldjo86/attuned-equipment-wiki",
+  "prepared_on": "2026-10-07",
+  "source_analysis_on": "2026-10-06",
+  "status": "passed",
+  "documentation_pages": 22,
+  "publication_files": 50,
+  "annexes": 16,
+  "original_texture_files": 43,
+  "texture_sheet_bytes": 74296,
+  "preserved_tables": 89,
+  "preserved_game_command_blocks": 3,
+  "checked_internal_links": 258,
+  "missing_files": [],
+  "missing_anchors": [],
+  "duplicate_anchors": [],
+  "note": "Contrôle documentaire et intégrité des fichiers. Aucun test dans Minecraft. La preuve de publication distante est le commit qui contient ces fichiers."
+}

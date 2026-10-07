@@ -1,0 +1,1094 @@
+{
+  "scope": "Static inspection only. No Minecraft client/server execution, schema-codec or rendering certification.",
+  "json": {
+    "datapack_json": 2367,
+    "resourcepack_json": 101,
+    "mcmeta_files": 2,
+    "parse_errors": [],
+    "duplicate_keys": []
+  },
+  "datapack_overlays": [
+    {
+      "versions": "1.21 / 1.21.1",
+      "format_family": 48,
+      "overlay": null,
+      "resources": 2719,
+      "overlay_replacements": 0,
+      "overlay_additions": 0,
+      "resources_by_type": {
+        "tags/function": 2,
+        "tags/villager_trade": 7,
+        "loot_table": 104,
+        "function": 1561,
+        "enchantment": 73,
+        "advancement": 45,
+        "item_modifier": 788,
+        "dialog": 58,
+        "predicate": 7,
+        "tags/item": 14,
+        "tags/entity_type": 5,
+        "tags/block": 1,
+        "tags/enchantment": 3,
+        "villager_trade": 36,
+        "recipe": 15
+      },
+      "reference_count": 14963,
+      "resolved_local_references": 14829,
+      "vanilla_dependencies_not_checked": 134,
+      "missing_local_reference_count": 0,
+      "missing_local_function_count": 0,
+      "missing_local_references": [],
+      "macro_function_reference_locations": []
+    },
+    {
+      "versions": "1.21.2 / 1.21.3",
+      "format_family": 57,
+      "overlay": "overlay_57",
+      "resources": 2719,
+      "overlay_replacements": 72,
+      "overlay_additions": 0,
+      "resources_by_type": {
+        "tags/function": 2,
+        "tags/villager_trade": 7,
+        "loot_table": 104,
+        "function": 1561,
+        "enchantment": 73,
+        "advancement": 45,
+        "item_modifier": 788,
+        "dialog": 58,
+        "predicate": 7,
+        "tags/item": 14,
+        "tags/entity_type": 5,
+        "tags/block": 1,
+        "tags/enchantment": 3,
+        "villager_trade": 36,
+        "recipe": 15
+      },
+      "reference_count": 14963,
+      "resolved_local_references": 14829,
+      "vanilla_dependencies_not_checked": 134,
+      "missing_local_reference_count": 0,
+      "missing_local_function_count": 0,
+      "missing_local_references": [],
+      "macro_function_reference_locations": []
+    },
+    {
+      "versions": "1.21.4",
+      "format_family": 61,
+      "overlay": "overlay_61",
+      "resources": 2719,
+      "overlay_replacements": 301,
+      "overlay_additions": 0,
+      "resources_by_type": {
+        "tags/function": 2,
+        "tags/villager_trade": 7,
+        "loot_table": 104,
+        "function": 1561,
+        "enchantment": 73,
+        "advancement": 45,
+        "item_modifier": 788,
+        "dialog": 58,
+        "predicate": 7,
+        "tags/item": 14,
+        "tags/entity_type": 5,
+        "tags/block": 1,
+        "tags/enchantment": 3,
+        "villager_trade": 36,
+        "recipe": 15
+      },
+      "reference_count": 14963,
+      "resolved_local_references": 14829,
+      "vanilla_dependencies_not_checked": 134,
+      "missing_local_reference_count": 0,
+      "missing_local_function_count": 0,
+      "missing_local_references": [],
+      "macro_function_reference_locations": []
+    },
+    {
+      "versions": "1.21.5",
+      "format_family": 71,
+      "overlay": "overlay_71",
+      "resources": 2721,
+      "overlay_replacements": 857,
+      "overlay_additions": 2,
+      "resources_by_type": {
+        "tags/function": 2,
+        "tags/villager_trade": 7,
+        "loot_table": 104,
+        "function": 1563,
+        "enchantment": 73,
+        "advancement": 45,
+        "item_modifier": 788,
+        "dialog": 58,
+        "predicate": 7,
+        "tags/item": 14,
+        "tags/entity_type": 5,
+        "tags/block": 1,
+        "tags/enchantment": 3,
+        "villager_trade": 36,
+        "recipe": 15
+      },
+      "reference_count": 14904,
+      "resolved_local_references": 14770,
+      "vanilla_dependencies_not_checked": 134,
+      "missing_local_reference_count": 0,
+      "missing_local_function_count": 0,
+      "missing_local_references": [],
+      "macro_function_reference_locations": []
+    },
+    {
+      "versions": "1.21.6 / 1.21.7 / 1.21.8",
+      "format_family": 80,
+      "overlay": "overlay_80",
+      "resources": 2721,
+      "overlay_replacements": 870,
+      "overlay_additions": 2,
+      "resources_by_type": {
+        "tags/function": 2,
+        "tags/villager_trade": 7,
+        "loot_table": 104,
+        "function": 1563,
+        "enchantment": 73,
+        "advancement": 45,
+        "item_modifier": 788,
+        "dialog": 58,
+        "predicate": 7,
+        "tags/item": 14,
+        "tags/entity_type": 5,
+        "tags/block": 1,
+        "tags/enchantment": 3,
+        "villager_trade": 36,
+        "recipe": 15
+      },
+      "reference_count": 14904,
+      "resolved_local_references": 14770,
+      "vanilla_dependencies_not_checked": 134,
+      "missing_local_reference_count": 0,
+      "missing_local_function_count": 0,
+      "missing_local_references": [],
+      "macro_function_reference_locations": []
+    },
+    {
+      "versions": "1.21.9 / 1.21.10",
+      "format_family": 88,
+      "overlay": "overlay_88",
+      "resources": 2721,
+      "overlay_replacements": 892,
+      "overlay_additions": 2,
+      "resources_by_type": {
+        "tags/function": 2,
+        "tags/villager_trade": 7,
+        "loot_table": 104,
+        "function": 1563,
+        "enchantment": 73,
+        "advancement": 45,
+        "item_modifier": 788,
+        "dialog": 58,
+        "predicate": 7,
+        "tags/item": 14,
+        "tags/entity_type": 5,
+        "tags/block": 1,
+        "tags/enchantment": 3,
+        "villager_trade": 36,
+        "recipe": 15
+      },
+      "reference_count": 14923,
+      "resolved_local_references": 14789,
+      "vanilla_dependencies_not_checked": 134,
+      "missing_local_reference_count": 0,
+      "missing_local_function_count": 0,
+      "missing_local_references": [],
+      "macro_function_reference_locations": []
+    },
+    {
+      "versions": "1.21.11",
+      "format_family": 94,
+      "overlay": "overlay_94",
+      "resources": 2721,
+      "overlay_replacements": 903,
+      "overlay_additions": 2,
+      "resources_by_type": {
+        "tags/function": 2,
+        "tags/villager_trade": 7,
+        "loot_table": 104,
+        "function": 1563,
+        "enchantment": 73,
+        "advancement": 45,
+        "item_modifier": 788,
+        "dialog": 58,
+        "predicate": 7,
+        "tags/item": 14,
+        "tags/entity_type": 5,
+        "tags/block": 1,
+        "tags/enchantment": 3,
+        "villager_trade": 36,
+        "recipe": 15
+      },
+      "reference_count": 14928,
+      "resolved_local_references": 14794,
+      "vanilla_dependencies_not_checked": 134,
+      "missing_local_reference_count": 0,
+      "missing_local_function_count": 0,
+      "missing_local_references": [],
+      "macro_function_reference_locations": []
+    }
+  ],
+  "resourcepack": {
+    "models_custom": 68,
+    "models_vanilla_override": 1,
+    "legacy_model_overrides": 6,
+    "item_definitions": 17,
+    "equipment_assets": 0,
+    "textures": [
+      {
+        "path": "assets/attuned/textures/item/bow/copper.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "5fe21426fa8f4daf671cfe54a6dfa2f0b11088306b5ba50423ea7ded55ee854a"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/copper_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "0848aaff2ae7c3531dbd2212d39595cbbc79a6e1656d221aa7b263df4c881378"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/diamond.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "2a0f09e03fb5b3212c615edfbb8168f556fedb540dae6b6a3cfefb5577654851"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/diamond_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "20a9356a9a1948ab7b6d4a4a2011fb54ec800895d32e0a6f38aabf4886e0ae70"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/golden.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "561970ddf65c523b834ea6c1a8b3c048f699ea3deae4026dd680ef53ac3b72b3"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/golden_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "94e9eae54f711d3d412bd54233b5bf849fb32f1e9e55c68f01d91a168918aa61"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/iron.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "e15d7c58c5d0f5f505a2cc3933cb3182c12be3a8dde7d603f38d2bcc6e410e5b"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/iron_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "63e4bb8c53ebea31d428226308c0e145802f545c65e37736dfb94ec96ddcbb34"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/netherite.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "df8330950022f7079a69e7d5836e90bcefcff468bc8b5aff91292a70e1e96236"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/netherite_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "241bfe85bb7feb06df29a28d75f2ef6b6333331280807cda4b219b13bb0a7676"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/stone.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "06ce6dd247a7b469b6ada52fe1c0ecdc312d92917560bbbb52513ebf7d81e060"
+      },
+      {
+        "path": "assets/attuned/textures/item/bow/stone_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "0e01db2f688d57a6216aa167ea83446de373a53962480aaebc0e52678235f008"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/arrow.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "4486abb62875c9604493d603f749ec6820cf6df6ce5f56391c95aa385eb7fd8b"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/arrow_multishot.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "2f74249cd80ac540d764790becfad036cb08482b8b34f8eaf986d67b924329c2"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/copper.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "5fe21426fa8f4daf671cfe54a6dfa2f0b11088306b5ba50423ea7ded55ee854a"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/copper_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "0848aaff2ae7c3531dbd2212d39595cbbc79a6e1656d221aa7b263df4c881378"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/diamond.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "2a0f09e03fb5b3212c615edfbb8168f556fedb540dae6b6a3cfefb5577654851"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/diamond_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "20a9356a9a1948ab7b6d4a4a2011fb54ec800895d32e0a6f38aabf4886e0ae70"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/firework.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "ebf7821cf3dde70b008e2f97403e2ec467bd32f8f6b7f0409e7a64b4239ce5b9"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/firework_multishot.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "ebf7821cf3dde70b008e2f97403e2ec467bd32f8f6b7f0409e7a64b4239ce5b9"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/golden.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "561970ddf65c523b834ea6c1a8b3c048f699ea3deae4026dd680ef53ac3b72b3"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/golden_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "94e9eae54f711d3d412bd54233b5bf849fb32f1e9e55c68f01d91a168918aa61"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/iron.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "e15d7c58c5d0f5f505a2cc3933cb3182c12be3a8dde7d603f38d2bcc6e410e5b"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/iron_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "63e4bb8c53ebea31d428226308c0e145802f545c65e37736dfb94ec96ddcbb34"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/netherite.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "df8330950022f7079a69e7d5836e90bcefcff468bc8b5aff91292a70e1e96236"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/netherite_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "241bfe85bb7feb06df29a28d75f2ef6b6333331280807cda4b219b13bb0a7676"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/spectral_arrow.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "ec6f9cd0f87b272677bbcde6f5ffc41d35e00c2051c3a996fcf0accce1d3c447"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/spectral_arrow_multishot.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "eff9469c208b384093fcd4083db64694e627695bf63b011d59f76295ed3e7249"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/stone.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "06ce6dd247a7b469b6ada52fe1c0ecdc312d92917560bbbb52513ebf7d81e060"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/stone_base.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "0e01db2f688d57a6216aa167ea83446de373a53962480aaebc0e52678235f008"
+      },
+      {
+        "path": "assets/attuned/textures/item/crossbow/tipped_arrow_multishot.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": false,
+        "sha256": "73407c3bcfdd28ebe119cea58e67e9d923eda51b8ea3984015bb5e638064daff"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/diamond_boss.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "e96af077bec49a944d3385d51058b9ac176264fae5be3f2875a8701cdb417edc"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/diamond_edge.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "15a192190983777cd7011f95cb0545959f89b0ee5e696384176819dc707ab45d"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/diamond_plate.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "d4a2548bb40879b40355e7a5451a8f97c61e63143ed68e9f9a00d3b75b6d1504"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/iron_boss.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "5e3c1251edd68ca4da259118a4682259c6d2d5018550cf2586bdd25cbcc1493f"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/iron_edge.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "9d49dea849fb662543140a12c8f830446be549eeaa54a28aef839265daaaede9"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/iron_plate.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "c372bca00f0df13aba7cb8cd3af6882eef002a6f205b4179f762c7b8dccc6960"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/netherite_boss.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "a9013f43fa7c05c79154d05e09458b2d4b5e948f5fbc53f32e7ec48bdc2f1773"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/netherite_edge.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "ef76675765db097877a20cef438d288394402d3adb9854d5ac37596e4961b8b6"
+      },
+      {
+        "path": "assets/attuned/textures/item/shield/netherite_plate.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": true,
+        "global_vanilla_override": false,
+        "sha256": "fc207c4b63ce792cc8807cfebdd8ffbdf2bcd1fb5f2298fff3679331fa7c2322"
+      },
+      {
+        "path": "assets/minecraft/textures/block/enchanting_table_bottom.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": true,
+        "sha256": "59f932092efa505a1ecd0b67bcf98e93e85f5a3964c43f7678e0561d7ee0a20c"
+      },
+      {
+        "path": "assets/minecraft/textures/block/enchanting_table_side.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": true,
+        "sha256": "dabe575e64d28c3b469036d1c3981bb6f10f7e60659c271de25eb5091e90d880"
+      },
+      {
+        "path": "assets/minecraft/textures/block/enchanting_table_top.png",
+        "width": 16,
+        "height": 16,
+        "mode": "RGBA",
+        "referenced_directly": false,
+        "global_vanilla_override": true,
+        "sha256": "98011620b13b923ca1870fe038920175c42dca8949607e8f8428341b0f5fbd68"
+      }
+    ],
+    "png_errors": [],
+    "direct_resource_references": 357,
+    "reference_status_counts": {
+      "model:resolved_local": 139,
+      "model:vanilla_dependency_not_checked": 88,
+      "texture:vanilla_dependency_not_checked": 10,
+      "texture:resolved_local": 120
+    },
+    "missing_local_references": [],
+    "unused_custom_textures": [
+      "assets/attuned/textures/item/bow/copper_base.png",
+      "assets/attuned/textures/item/bow/diamond_base.png",
+      "assets/attuned/textures/item/bow/golden_base.png",
+      "assets/attuned/textures/item/bow/iron_base.png",
+      "assets/attuned/textures/item/bow/netherite_base.png",
+      "assets/attuned/textures/item/bow/stone_base.png",
+      "assets/attuned/textures/item/crossbow/arrow_multishot.png",
+      "assets/attuned/textures/item/crossbow/firework_multishot.png",
+      "assets/attuned/textures/item/crossbow/spectral_arrow.png",
+      "assets/attuned/textures/item/crossbow/spectral_arrow_multishot.png",
+      "assets/attuned/textures/item/crossbow/tipped_arrow_multishot.png"
+    ],
+    "pulling_model_comparisons": [
+      {
+        "family": "bow",
+        "material": "stone",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/bow/stone.json",
+          "assets/attuned/models/item/bow/stone_pulling_0.json",
+          "assets/attuned/models/item/bow/stone_pulling_1.json",
+          "assets/attuned/models/item/bow/stone_pulling_2.json"
+        ]
+      },
+      {
+        "family": "bow",
+        "material": "copper",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/bow/copper.json",
+          "assets/attuned/models/item/bow/copper_pulling_0.json",
+          "assets/attuned/models/item/bow/copper_pulling_1.json",
+          "assets/attuned/models/item/bow/copper_pulling_2.json"
+        ]
+      },
+      {
+        "family": "bow",
+        "material": "iron",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/bow/iron.json",
+          "assets/attuned/models/item/bow/iron_pulling_0.json",
+          "assets/attuned/models/item/bow/iron_pulling_1.json",
+          "assets/attuned/models/item/bow/iron_pulling_2.json"
+        ]
+      },
+      {
+        "family": "bow",
+        "material": "golden",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/bow/golden.json",
+          "assets/attuned/models/item/bow/golden_pulling_0.json",
+          "assets/attuned/models/item/bow/golden_pulling_1.json",
+          "assets/attuned/models/item/bow/golden_pulling_2.json"
+        ]
+      },
+      {
+        "family": "bow",
+        "material": "diamond",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/bow/diamond.json",
+          "assets/attuned/models/item/bow/diamond_pulling_0.json",
+          "assets/attuned/models/item/bow/diamond_pulling_1.json",
+          "assets/attuned/models/item/bow/diamond_pulling_2.json"
+        ]
+      },
+      {
+        "family": "bow",
+        "material": "netherite",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/bow/netherite.json",
+          "assets/attuned/models/item/bow/netherite_pulling_0.json",
+          "assets/attuned/models/item/bow/netherite_pulling_1.json",
+          "assets/attuned/models/item/bow/netherite_pulling_2.json"
+        ]
+      },
+      {
+        "family": "crossbow",
+        "material": "stone",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/crossbow/stone.json",
+          "assets/attuned/models/item/crossbow/stone_pulling_0.json",
+          "assets/attuned/models/item/crossbow/stone_pulling_1.json",
+          "assets/attuned/models/item/crossbow/stone_pulling_2.json"
+        ]
+      },
+      {
+        "family": "crossbow",
+        "material": "copper",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/crossbow/copper.json",
+          "assets/attuned/models/item/crossbow/copper_pulling_0.json",
+          "assets/attuned/models/item/crossbow/copper_pulling_1.json",
+          "assets/attuned/models/item/crossbow/copper_pulling_2.json"
+        ]
+      },
+      {
+        "family": "crossbow",
+        "material": "iron",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/crossbow/iron.json",
+          "assets/attuned/models/item/crossbow/iron_pulling_0.json",
+          "assets/attuned/models/item/crossbow/iron_pulling_1.json",
+          "assets/attuned/models/item/crossbow/iron_pulling_2.json"
+        ]
+      },
+      {
+        "family": "crossbow",
+        "material": "golden",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/crossbow/golden.json",
+          "assets/attuned/models/item/crossbow/golden_pulling_0.json",
+          "assets/attuned/models/item/crossbow/golden_pulling_1.json",
+          "assets/attuned/models/item/crossbow/golden_pulling_2.json"
+        ]
+      },
+      {
+        "family": "crossbow",
+        "material": "diamond",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/crossbow/diamond.json",
+          "assets/attuned/models/item/crossbow/diamond_pulling_0.json",
+          "assets/attuned/models/item/crossbow/diamond_pulling_1.json",
+          "assets/attuned/models/item/crossbow/diamond_pulling_2.json"
+        ]
+      },
+      {
+        "family": "crossbow",
+        "material": "netherite",
+        "base_and_three_pulling_states_identical": true,
+        "paths": [
+          "assets/attuned/models/item/crossbow/netherite.json",
+          "assets/attuned/models/item/crossbow/netherite_pulling_0.json",
+          "assets/attuned/models/item/crossbow/netherite_pulling_1.json",
+          "assets/attuned/models/item/crossbow/netherite_pulling_2.json"
+        ]
+      }
+    ],
+    "legacy_overrides": [
+      {
+        "path": "overlay_legacy/assets/minecraft/models/item/bow.json",
+        "override_count": 27,
+        "custom_model_data": {
+          "10002": [
+            "attuned:item/bow/copper",
+            "attuned:item/bow/copper_pulling_0",
+            "attuned:item/bow/copper_pulling_1",
+            "attuned:item/bow/copper_pulling_2"
+          ],
+          "10003": [
+            "attuned:item/bow/diamond",
+            "attuned:item/bow/diamond_pulling_0",
+            "attuned:item/bow/diamond_pulling_1",
+            "attuned:item/bow/diamond_pulling_2"
+          ],
+          "10004": [
+            "attuned:item/bow/golden",
+            "attuned:item/bow/golden_pulling_0",
+            "attuned:item/bow/golden_pulling_1",
+            "attuned:item/bow/golden_pulling_2"
+          ],
+          "10005": [
+            "attuned:item/bow/iron",
+            "attuned:item/bow/iron_pulling_0",
+            "attuned:item/bow/iron_pulling_1",
+            "attuned:item/bow/iron_pulling_2"
+          ],
+          "10006": [
+            "attuned:item/bow/netherite",
+            "attuned:item/bow/netherite_pulling_0",
+            "attuned:item/bow/netherite_pulling_1",
+            "attuned:item/bow/netherite_pulling_2"
+          ],
+          "10007": [
+            "attuned:item/bow/stone",
+            "attuned:item/bow/stone_pulling_0",
+            "attuned:item/bow/stone_pulling_1",
+            "attuned:item/bow/stone_pulling_2"
+          ]
+        }
+      },
+      {
+        "path": "overlay_legacy/assets/minecraft/models/item/crossbow.json",
+        "override_count": 41,
+        "custom_model_data": {
+          "10008": [
+            "attuned:item/crossbow/copper",
+            "attuned:item/crossbow/copper_pulling_0",
+            "attuned:item/crossbow/copper_pulling_1",
+            "attuned:item/crossbow/copper_pulling_2",
+            "attuned:item/crossbow/copper_arrow",
+            "attuned:item/crossbow/copper_rocket"
+          ],
+          "10009": [
+            "attuned:item/crossbow/diamond",
+            "attuned:item/crossbow/diamond_pulling_0",
+            "attuned:item/crossbow/diamond_pulling_1",
+            "attuned:item/crossbow/diamond_pulling_2",
+            "attuned:item/crossbow/diamond_arrow",
+            "attuned:item/crossbow/diamond_rocket"
+          ],
+          "10010": [
+            "attuned:item/crossbow/golden",
+            "attuned:item/crossbow/golden_pulling_0",
+            "attuned:item/crossbow/golden_pulling_1",
+            "attuned:item/crossbow/golden_pulling_2",
+            "attuned:item/crossbow/golden_arrow",
+            "attuned:item/crossbow/golden_rocket"
+          ],
+          "10011": [
+            "attuned:item/crossbow/iron",
+            "attuned:item/crossbow/iron_pulling_0",
+            "attuned:item/crossbow/iron_pulling_1",
+            "attuned:item/crossbow/iron_pulling_2",
+            "attuned:item/crossbow/iron_arrow",
+            "attuned:item/crossbow/iron_rocket"
+          ],
+          "10012": [
+            "attuned:item/crossbow/netherite",
+            "attuned:item/crossbow/netherite_pulling_0",
+            "attuned:item/crossbow/netherite_pulling_1",
+            "attuned:item/crossbow/netherite_pulling_2",
+            "attuned:item/crossbow/netherite_arrow",
+            "attuned:item/crossbow/netherite_rocket"
+          ],
+          "10013": [
+            "attuned:item/crossbow/stone",
+            "attuned:item/crossbow/stone_pulling_0",
+            "attuned:item/crossbow/stone_pulling_1",
+            "attuned:item/crossbow/stone_pulling_2",
+            "attuned:item/crossbow/stone_arrow",
+            "attuned:item/crossbow/stone_rocket"
+          ]
+        }
+      },
+      {
+        "path": "overlay_legacy/assets/minecraft/models/item/knowledge_book.json",
+        "override_count": 10,
+        "custom_model_data": {
+          "10017": [
+            "minecraft:item/anvil"
+          ],
+          "10018": [
+            "minecraft:item/barrier"
+          ],
+          "10019": [
+            "minecraft:item/book"
+          ],
+          "10020": [
+            "minecraft:item/compass"
+          ],
+          "10021": [
+            "minecraft:item/enchanted_book"
+          ],
+          "10022": [
+            "minecraft:item/experience_bottle"
+          ],
+          "10023": [
+            "minecraft:item/gray_stained_glass_pane"
+          ],
+          "10024": [
+            "minecraft:item/iron_pickaxe"
+          ],
+          "10025": [
+            "minecraft:item/lapis_lazuli"
+          ],
+          "10026": [
+            "minecraft:item/lime_dye"
+          ]
+        }
+      },
+      {
+        "path": "overlay_legacy/assets/minecraft/models/item/lapis_block.json",
+        "override_count": 1,
+        "custom_model_data": {
+          "10000": [
+            "attuned:item/anvil/lapis_block_catalyst"
+          ]
+        }
+      },
+      {
+        "path": "overlay_legacy/assets/minecraft/models/item/lapis_lazuli.json",
+        "override_count": 1,
+        "custom_model_data": {
+          "10001": [
+            "attuned:item/anvil/lapis_catalyst"
+          ]
+        }
+      },
+      {
+        "path": "overlay_legacy/assets/minecraft/models/item/shield.json",
+        "override_count": 7,
+        "custom_model_data": {
+          "10014": [
+            "attuned:item/shield/diamond",
+            "attuned:item/shield/diamond_blocking"
+          ],
+          "10015": [
+            "attuned:item/shield/iron",
+            "attuned:item/shield/iron_blocking"
+          ],
+          "10016": [
+            "attuned:item/shield/netherite",
+            "attuned:item/shield/netherite_blocking"
+          ]
+        }
+      }
+    ],
+    "languages": {
+      "assets/attuned/lang/en_au.json": {
+        "key_count": 1469,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "79a1e78e5e6c7f55a457e3de8c9ce1b41ff3faffe87a9eb6f0922c2b3cf261dd",
+        "missing_vs_en_us": [],
+        "extra_vs_en_us": [],
+        "same_values_as_en_us": 1469
+      },
+      "assets/attuned/lang/en_ca.json": {
+        "key_count": 1469,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "79a1e78e5e6c7f55a457e3de8c9ce1b41ff3faffe87a9eb6f0922c2b3cf261dd",
+        "missing_vs_en_us": [],
+        "extra_vs_en_us": [],
+        "same_values_as_en_us": 1469
+      },
+      "assets/attuned/lang/en_gb.json": {
+        "key_count": 1469,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "79a1e78e5e6c7f55a457e3de8c9ce1b41ff3faffe87a9eb6f0922c2b3cf261dd",
+        "missing_vs_en_us": [],
+        "extra_vs_en_us": [],
+        "same_values_as_en_us": 1469
+      },
+      "assets/attuned/lang/en_nz.json": {
+        "key_count": 1469,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "79a1e78e5e6c7f55a457e3de8c9ce1b41ff3faffe87a9eb6f0922c2b3cf261dd",
+        "missing_vs_en_us": [],
+        "extra_vs_en_us": [],
+        "same_values_as_en_us": 1469
+      },
+      "assets/attuned/lang/en_us.json": {
+        "key_count": 1469,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "79a1e78e5e6c7f55a457e3de8c9ce1b41ff3faffe87a9eb6f0922c2b3cf261dd",
+        "missing_vs_en_us": [],
+        "extra_vs_en_us": [],
+        "same_values_as_en_us": 1469
+      },
+      "assets/attuned/lang/fr_ca.json": {
+        "key_count": 1469,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "717b8e04f53d429f05e3d83e5f4aa49a98a06a0e066ac6d0da39cf0dd8704a8c",
+        "missing_vs_en_us": [],
+        "extra_vs_en_us": [],
+        "same_values_as_en_us": 55
+      },
+      "assets/attuned/lang/fr_fr.json": {
+        "key_count": 1469,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "717b8e04f53d429f05e3d83e5f4aa49a98a06a0e066ac6d0da39cf0dd8704a8c",
+        "missing_vs_en_us": [],
+        "extra_vs_en_us": [],
+        "same_values_as_en_us": 55
+      },
+      "assets/minecraft/lang/en_us.json": {
+        "key_count": 1,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "0cbfd01c68e11f4b0960f629e3d94ceb5e551c5f22fd9d80c89f826cf6bcb852"
+      },
+      "assets/minecraft/lang/fr_fr.json": {
+        "key_count": 1,
+        "empty_keys": [],
+        "non_string_values": [],
+        "sha256": "d5a820b97d5ff10c7d78c5bde49792064daec11e564a73375ed24552261f3b9d"
+      }
+    },
+    "translation_check": {
+      "unique_attuned_translate_keys_found": 1445,
+      "unknown_keys_vs_en_us": {},
+      "not_found_in_literal_translate_usage": [
+        "enchantment.attuned.experienced",
+        "enchantment.attuned.history_imprint",
+        "enchantment.attuned.shield_bastion_call",
+        "enchantment.attuned.shield_living_bulwark",
+        "enchantment.attuned.shield_mastery",
+        "enchantment.attuned.shield_quick_guard",
+        "enchantment.attuned.shield_tempered",
+        "enchantment.attuned.tool_mastery",
+        "enchantment.attuned.weapon_mastery",
+        "item.attuned.copper_crossbow",
+        "item.attuned.diamond_crossbow",
+        "item.attuned.golden_crossbow",
+        "item.attuned.iron_crossbow",
+        "item.attuned.netherite_crossbow",
+        "item.attuned.stone_crossbow",
+        "item.minecraft.copper_axe",
+        "item.minecraft.copper_boots",
+        "item.minecraft.copper_chestplate",
+        "item.minecraft.copper_helmet",
+        "item.minecraft.copper_hoe",
+        "item.minecraft.copper_leggings",
+        "item.minecraft.copper_pickaxe",
+        "item.minecraft.copper_shovel",
+        "item.minecraft.copper_sword"
+      ],
+      "method": "Literal translate keys in JSON and MCFunction, including de-escaped JSON text; runtime-computed strings cannot be exhaustively checked."
+    },
+    "datapack_item_model_reference_count": 580,
+    "datapack_item_model_unique_ids": [
+      "attuned:anvil/lapis_block_catalyst",
+      "attuned:anvil/lapis_catalyst",
+      "attuned:bow/copper",
+      "attuned:bow/diamond",
+      "attuned:bow/golden",
+      "attuned:bow/iron",
+      "attuned:bow/netherite",
+      "attuned:bow/stone",
+      "attuned:crossbow/copper",
+      "attuned:crossbow/diamond",
+      "attuned:crossbow/golden",
+      "attuned:crossbow/iron",
+      "attuned:crossbow/netherite",
+      "attuned:crossbow/stone",
+      "attuned:shield/diamond",
+      "attuned:shield/iron",
+      "attuned:shield/netherite"
+    ],
+    "datapack_item_model_missing": []
+  },
+  "limitations": [
+    "Vanilla references distinguished from missing custom resources; vanilla game assets not supplied.",
+    "Command resource extraction is static and does not parse Brigadier/SNBT exhaustively.",
+    "A file present in a virtual overlay can belong to a registry introduced after the targeted game version.",
+    "All texture files loaded with Pillow; no game render or animation playback was performed.",
+    "Unused texture means no direct reference from supplied RP JSON, not a proof of external consumers absence."
+  ]
+}

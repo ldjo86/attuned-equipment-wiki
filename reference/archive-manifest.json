@@ -1,0 +1,37 @@
+{
+  "project": "Attuned Equipment",
+  "version": "0.17.1",
+  "analysis_date": "2026-10-06",
+  "method": "Static source and resource inspection; no Minecraft execution in this session.",
+  "archives": [
+    {
+      "kind": "datapack",
+      "filename": "Attuned_Equipment_DP_1.21.x_v0.17.1.zip",
+      "size_bytes": 4033711,
+      "sha256": "37f220d2955f305821cfd2c7379be91674f996507b1afa62a86567b359c189ef",
+      "file_count": 6627,
+      "uncompressed_bytes": 13769915,
+      "extensions": {
+        ".txt": 2,
+        ".md": 1,
+        ".json": 2367,
+        ".mcfunction": 4255,
+        ".mcmeta": 1,
+        ".zip": 1
+      }
+    },
+    {
+      "kind": "resourcepack",
+      "filename": "resources.zip",
+      "size_bytes": 289554,
+      "sha256": "666fbf47d2eaa7325ddcb191ae44c650f080ecc2c4e6a366b85fb530054a6620",
+      "file_count": 145,
+      "uncompressed_bytes": 915894,
+      "extensions": {
+        ".json": 101,
+        ".png": 43,
+        ".mcmeta": 1
+      }
+    }
+  ]
+}

@@ -1,0 +1,2051 @@
+[
+  {
+    "id": "attuned:armorer/bastion",
+    "profession": "armorer",
+    "offer_name_fr": "Manuel : Bastion",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 34
+    },
+    "secondary_price": {
+      "id": "minecraft:book",
+      "count": 1
+    },
+    "max_uses": 2,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "bastion",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/armorer/bastion.json",
+      "line_start": 1,
+      "line_end": 37
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 34
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.136ca759e12953e6\",\"fallback\":\"Manual : Bastion\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.0a57d5887f27ee07\",\"fallback\":\"Teaches : Bastion I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "bastion",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:bastion": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 2,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:book",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:armorer/riposte",
+    "profession": "armorer",
+    "offer_name_fr": "Manuel : Riposte",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 38
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "riposte",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/armorer/riposte.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 38
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.2c5bdc573cde6ee3\",\"fallback\":\"Manual : Riposte\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.7f8915bcaa78f379\",\"fallback\":\"Teaches : Riposte I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "riposte",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:riposte": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:armorer/second_wind",
+    "profession": "armorer",
+    "offer_name_fr": "Manuel : Second souffle",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 46
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "second_wind",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/armorer/second_wind.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 46
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.99392bacba9d23a5\",\"fallback\":\"Manual : Second Wind\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.c76747a7ee474e13\",\"fallback\":\"Teaches : Second Wind I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "second_wind",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:second_wind": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:cleric/bind",
+    "profession": "cleric",
+    "offer_name_fr": "Manuel : Entrave",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 38
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "bind",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/cleric/bind.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 38
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.862037913c144b8d\",\"fallback\":\"Manual : Binding Strike\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.a6434be97dd7dc37\",\"fallback\":\"Teaches : Binding Strike I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "bind",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:bind": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:cleric/siphon",
+    "profession": "cleric",
+    "offer_name_fr": "Manuel : Siphon",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 46
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "siphon",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/cleric/siphon.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 46
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.a5a58245df90f38d\",\"fallback\":\"Manual : Siphon\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.2eb1ba3084cccf47\",\"fallback\":\"Teaches : Siphon I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "siphon",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:siphon": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:cleric/vitality",
+    "profession": "cleric",
+    "offer_name_fr": "Tome de Vitalité",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 32
+    },
+    "secondary_price": {
+      "id": "minecraft:golden_apple",
+      "count": 1
+    },
+    "max_uses": 2,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_tome": "vitality",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/cleric/vitality.json",
+      "line_start": 1,
+      "line_end": 31
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 32
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.81c0255f78021830\",\"fallback\":\"Tome of Vitality\"}",
+          "minecraft:lore": [
+            "{\"color\":\"gold\",\"italic\":false,\"translate\":\"text.attuned.7ba49bab7db4f66d\",\"fallback\":\"Tome of Progression\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.eb1e21975b432591\",\"fallback\":\"Consume at an enchanting table.\"}",
+            "{\"color\":\"red\",\"italic\":false,\"translate\":\"text.attuned.27a2e6315fd7078f\",\"fallback\":\"+1 permanent heart per rank — maximum 5.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_tome": "vitality",
+            "attuned_book": 1
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 2,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:golden_apple",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:fletcher/longshot",
+    "profession": "fletcher",
+    "offer_name_fr": "Manuel : Longue portée",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 34
+    },
+    "secondary_price": {
+      "id": "minecraft:book",
+      "count": 1
+    },
+    "max_uses": 2,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "longshot",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/fletcher/longshot.json",
+      "line_start": 1,
+      "line_end": 37
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 34
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.bc7bccf0b7ecc9f1\",\"fallback\":\"Manual : Longshot\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.77e6572facc2adec\",\"fallback\":\"Teaches : Longshot I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "longshot",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:longshot": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 2,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:book",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:fletcher/rapid_mechanism",
+    "profession": "fletcher",
+    "offer_name_fr": "Manuel : Mécanisme rapide",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 34
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "rapid_mechanism",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/fletcher/rapid_mechanism.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 34
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.5ff834ac44cbb131\",\"fallback\":\"Manual : Rapid Mechanism\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.4c8755dea9ab2cee\",\"fallback\":\"Teaches : Rapid Mechanism I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "rapid_mechanism",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:rapid_mechanism": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:fletcher/reinforced_piercing",
+    "profession": "fletcher",
+    "offer_name_fr": "Manuel : Perforation renforcée",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 36
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "reinforced_piercing",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/fletcher/reinforced_piercing.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 36
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.c329ad39808e3bb8\",\"fallback\":\"Manual : Reinforced Piercing\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.f6e5b935c0434440\",\"fallback\":\"Teaches : Reinforced Piercing I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "reinforced_piercing",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:reinforced_piercing": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:fletcher/volley",
+    "profession": "fletcher",
+    "offer_name_fr": "Manuel : Volée",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 48
+    },
+    "secondary_price": {
+      "id": "minecraft:book",
+      "count": 1
+    },
+    "max_uses": 1,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "volley",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/fletcher/volley.json",
+      "line_start": 1,
+      "line_end": 37
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.50aa9403d33b80d1\",\"fallback\":\"Manual : Volley\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.0c68a7ef3ade86cb\",\"fallback\":\"Teaches : Volley I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "volley",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:volley": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:book",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:librarian/mending_knowledge",
+    "profession": "librarian",
+    "offer_name_fr": "Codex du Raccommodage",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 36
+    },
+    "secondary_price": {
+      "id": "minecraft:book",
+      "count": 1
+    },
+    "max_uses": 2,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "mending",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/librarian/mending_knowledge.json",
+      "line_start": 1,
+      "line_end": 31
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 36
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"green\",\"italic\":false,\"translate\":\"text.attuned.42d946b9cef76324\",\"fallback\":\"Codex of Mending\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"green\",\"italic\":false,\"translate\":\"text.attuned.ed793ff881e8c1e5\",\"fallback\":\"Teaches : Mending I\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "mending",
+            "attuned_book": 1
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 2,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:book",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:toolsmith/dexterity",
+    "profession": "toolsmith",
+    "offer_name_fr": "Tome de Dextérité",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 28
+    },
+    "secondary_price": {
+      "id": "minecraft:lapis_block",
+      "count": 1
+    },
+    "max_uses": 3,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_tome": "dexterity",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/toolsmith/dexterity.json",
+      "line_start": 1,
+      "line_end": 31
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 28
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.3077e53e0a8b892d\",\"fallback\":\"Tome of Dexterity\"}",
+          "minecraft:lore": [
+            "{\"color\":\"gold\",\"italic\":false,\"translate\":\"text.attuned.7ba49bab7db4f66d\",\"fallback\":\"Tome of Progression\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.eb1e21975b432591\",\"fallback\":\"Consume at an enchanting table.\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.69abc99bf19431be\",\"fallback\":\"+5 %% mining speed per rank — maximum 3.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_tome": "dexterity",
+            "attuned_book": 1
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 3,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:lapis_block",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:toolsmith/endurance",
+    "profession": "toolsmith",
+    "offer_name_fr": "Manuel : Endurance",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 34
+    },
+    "secondary_price": {
+      "id": "minecraft:book",
+      "count": 1
+    },
+    "max_uses": 2,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "endurance",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/toolsmith/endurance.json",
+      "line_start": 1,
+      "line_end": 37
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 34
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.e777ad8ab873abe4\",\"fallback\":\"Manual : Endurance\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.1210a217b546c867\",\"fallback\":\"Teaches : Endurance I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "endurance",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:endurance": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 2,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:book",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:toolsmith/excavation",
+    "profession": "toolsmith",
+    "offer_name_fr": "Manuel : Excavation",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 30
+    },
+    "secondary_price": {
+      "id": "minecraft:book",
+      "count": 1
+    },
+    "max_uses": 3,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "excavation",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/toolsmith/excavation.json",
+      "line_start": 1,
+      "line_end": 37
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 30
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.7802e23f8391846b\",\"fallback\":\"Manual : Excavation\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.9d98947433096e7a\",\"fallback\":\"Teaches : Excavation I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "excavation",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:excavation": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 3,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:book",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:toolsmith/harvest",
+    "profession": "toolsmith",
+    "offer_name_fr": "Manuel : Moisson",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 28
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "harvest",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/toolsmith/harvest.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 28
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.ba1c69d9a8a63d14\",\"fallback\":\"Manual : Harvest\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.d29a97aba968a156\",\"fallback\":\"Teaches : Harvest I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "harvest",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:harvest": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:toolsmith/lumberjack",
+    "profession": "toolsmith",
+    "offer_name_fr": "Manuel : Bûcheron",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 28
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "lumberjack",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/toolsmith/lumberjack.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 28
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.e393882c8c49d38b\",\"fallback\":\"Manual : Lumberjack\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.d0d178985c4e289c\",\"fallback\":\"Teaches : Lumberjack I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "lumberjack",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:lumberjack": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:toolsmith/reach",
+    "profession": "toolsmith",
+    "offer_name_fr": "Manuel : Allonge",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 32
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "reach",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/toolsmith/reach.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 32
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.6bd90e8c78911b43\",\"fallback\":\"Manual : Reach\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.f1b34699af72ed98\",\"fallback\":\"Teaches : Reach I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "reach",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:reach": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/abyssal_guard",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Garde abyssale",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 40
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "abyssal_guard",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/abyssal_guard.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 40
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.ad5015248999f264\",\"fallback\":\"Manual : Abyssal Guard\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.ef6cecd658556cae\",\"fallback\":\"Teaches : Abyssal Guard I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "abyssal_guard",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:abyssal_guard": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/bastion",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Bastion",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 38
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "bastion",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/bastion.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 38
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.136ca759e12953e6\",\"fallback\":\"Manual : Bastion\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.0a57d5887f27ee07\",\"fallback\":\"Teaches : Bastion I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "bastion",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:bastion": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/endurance",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Endurance",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 30
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "endurance",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/endurance.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 30
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.e777ad8ab873abe4\",\"fallback\":\"Manual : Endurance\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.1210a217b546c867\",\"fallback\":\"Teaches : Endurance I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "endurance",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:endurance": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/excavation",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Excavation",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 34
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "excavation",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/excavation.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 34
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.7802e23f8391846b\",\"fallback\":\"Manual : Excavation\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.9d98947433096e7a\",\"fallback\":\"Teaches : Excavation I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "excavation",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:excavation": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/feather_step",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Pas léger",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 34
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "feather_step",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/feather_step.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 34
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.9d1f684cc53c6794\",\"fallback\":\"Manual : Light Step\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.94c62099fff35c06\",\"fallback\":\"Teaches : Light Step I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "feather_step",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:feather_step": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/impact",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Impact",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 32
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "impact",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/impact.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 32
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.ebcf27343c97a474\",\"fallback\":\"Manual : Impact\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.49ade18486929dde\",\"fallback\":\"Teaches : Impact I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "impact",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:impact": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/infernal_edge",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Lame infernale",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 44
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "infernal_edge",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/infernal_edge.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 44
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.c75efe61e6d2302f\",\"fallback\":\"Manual : Infernal Edge\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.91df87e2f6fb97b4\",\"fallback\":\"Teaches : Infernal Edge I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "infernal_edge",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:infernal_edge": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/longshot",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Longue portée",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 40
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "longshot",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/longshot.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 40
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.bc7bccf0b7ecc9f1\",\"fallback\":\"Manual : Longshot\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.77e6572facc2adec\",\"fallback\":\"Teaches : Longshot I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "longshot",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:longshot": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/rapid_mechanism",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Mécanisme rapide",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 36
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "rapid_mechanism",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/rapid_mechanism.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 36
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.5ff834ac44cbb131\",\"fallback\":\"Manual : Rapid Mechanism\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.4c8755dea9ab2cee\",\"fallback\":\"Teaches : Rapid Mechanism I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "rapid_mechanism",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:rapid_mechanism": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/reach",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Allonge",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 40
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "reach",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/reach.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 40
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.6bd90e8c78911b43\",\"fallback\":\"Manual : Reach\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.f1b34699af72ed98\",\"fallback\":\"Teaches : Reach I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "reach",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:reach": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/riposte",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Riposte",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 42
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "riposte",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/riposte.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 42
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.2c5bdc573cde6ee3\",\"fallback\":\"Manual : Riposte\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.7f8915bcaa78f379\",\"fallback\":\"Teaches : Riposte I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "riposte",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:riposte": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/second_wind",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Second souffle",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 48
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "second_wind",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/second_wind.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.99392bacba9d23a5\",\"fallback\":\"Manual : Second Wind\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.c76747a7ee474e13\",\"fallback\":\"Teaches : Second Wind I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "second_wind",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:second_wind": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/siphon",
+    "profession": "wandering",
+    "offer_name_fr": "Manuel : Siphon",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 48
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "siphon",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/siphon.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.a5a58245df90f38d\",\"fallback\":\"Manual : Siphon\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.2eb1ba3084cccf47\",\"fallback\":\"Teaches : Siphon I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "siphon",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:siphon": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/vigor",
+    "profession": "wandering",
+    "offer_name_fr": "Tome de Vigueur",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 36
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_tome": "vigor",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/vigor.json",
+      "line_start": 1,
+      "line_end": 27
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 36
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"green\",\"italic\":false,\"translate\":\"text.attuned.ef606d74f72f0339\",\"fallback\":\"Tome of Vigor\"}",
+          "minecraft:lore": [
+            "{\"color\":\"gold\",\"italic\":false,\"translate\":\"text.attuned.7ba49bab7db4f66d\",\"fallback\":\"Tome of Progression\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.eb1e21975b432591\",\"fallback\":\"Consume at an enchanting table.\"}",
+            "{\"color\":\"green\",\"italic\":false,\"translate\":\"text.attuned.d8e36db1cd9ea2ed\",\"fallback\":\"+2 %% speed per rank — maximum 3.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_tome": "vigor",
+            "attuned_book": 1
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:wandering/vitality",
+    "profession": "wandering",
+    "offer_name_fr": "Tome de Vitalité",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 48
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_tome": "vitality",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/wandering/vitality.json",
+      "line_start": 1,
+      "line_end": 27
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 48
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.81c0255f78021830\",\"fallback\":\"Tome of Vitality\"}",
+          "minecraft:lore": [
+            "{\"color\":\"gold\",\"italic\":false,\"translate\":\"text.attuned.7ba49bab7db4f66d\",\"fallback\":\"Tome of Progression\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.eb1e21975b432591\",\"fallback\":\"Consume at an enchanting table.\"}",
+            "{\"color\":\"red\",\"italic\":false,\"translate\":\"text.attuned.27a2e6315fd7078f\",\"fallback\":\"+1 permanent heart per rank — maximum 5.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_tome": "vitality",
+            "attuned_book": 1
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:weaponsmith/execution",
+    "profession": "weaponsmith",
+    "offer_name_fr": "Manuel : Exécution",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 36
+    },
+    "secondary_price": {
+      "id": "minecraft:book",
+      "count": 1
+    },
+    "max_uses": 2,
+    "villager_xp": 30,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "execution",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/weaponsmith/execution.json",
+      "line_start": 1,
+      "line_end": 37
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 36
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.1838185dcabe9e46\",\"fallback\":\"Manual : Execution\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.8287d60a3641244f\",\"fallback\":\"Teaches : Execution I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "execution",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:execution": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 2,
+      "xp": 30,
+      "reputation_discount": 0.1,
+      "additional_wants": {
+        "id": "minecraft:book",
+        "count": 1
+      }
+    }
+  },
+  {
+    "id": "attuned:weaponsmith/impact",
+    "profession": "weaponsmith",
+    "offer_name_fr": "Manuel : Impact",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 30
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "impact",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/weaponsmith/impact.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 30
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.ebcf27343c97a474\",\"fallback\":\"Manual : Impact\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.49ade18486929dde\",\"fallback\":\"Teaches : Impact I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "impact",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:impact": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:weaponsmith/infernal_edge",
+    "profession": "weaponsmith",
+    "offer_name_fr": "Manuel : Lame infernale",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 40
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "infernal_edge",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/weaponsmith/infernal_edge.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 40
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.c75efe61e6d2302f\",\"fallback\":\"Manual : Infernal Edge\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.91df87e2f6fb97b4\",\"fallback\":\"Teaches : Infernal Edge I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "infernal_edge",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:infernal_edge": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  },
+  {
+    "id": "attuned:weaponsmith/siphon",
+    "profession": "weaponsmith",
+    "offer_name_fr": "Manuel : Siphon",
+    "primary_price": {
+      "id": "minecraft:emerald",
+      "count": 46
+    },
+    "secondary_price": null,
+    "max_uses": 1,
+    "villager_xp": 0,
+    "reputation_discount": 0.1,
+    "book_custom_data": {
+      "attuned_knowledge": "siphon",
+      "attuned_book": 1
+    },
+    "status": "Définition dormante sur Java 1.21.x ; registre introduit en 26.1",
+    "source": {
+      "path": "data/attuned/villager_trade/weaponsmith/siphon.json",
+      "line_start": 1,
+      "line_end": 33
+    },
+    "definition": {
+      "wants": {
+        "id": "minecraft:emerald",
+        "count": 46
+      },
+      "gives": {
+        "id": "minecraft:enchanted_book"
+      },
+      "given_item_modifier": {
+        "components": {
+          "minecraft:custom_name": "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.a5a58245df90f38d\",\"fallback\":\"Manual : Siphon\"}",
+          "minecraft:lore": [
+            "{\"color\":\"dark_purple\",\"italic\":false,\"translate\":\"text.attuned.e74f5d9170d45cf5\",\"fallback\":\"Enchanted Book — Learning\"}",
+            "{\"color\":\"gray\",\"italic\":false,\"translate\":\"text.attuned.766686a4c7fcb79b\",\"fallback\":\"Place it in a chiseled bookshelf.\"}",
+            "{\"color\":\"light_purple\",\"italic\":false,\"translate\":\"text.attuned.2eb1ba3084cccf47\",\"fallback\":\"Teaches : Siphon I\"}",
+            "{\"color\":\"aqua\",\"italic\":false,\"translate\":\"text.attuned.9d527d0c4597e24b\",\"fallback\":\"Can be combined up to level V.\"}"
+          ],
+          "minecraft:custom_data": {
+            "attuned_knowledge": "siphon",
+            "attuned_book": 1
+          },
+          "minecraft:stored_enchantments": {
+            "levels": {
+              "attuned:siphon": 1
+            }
+          }
+        },
+        "function": "minecraft:set_components"
+      },
+      "max_uses": 1,
+      "xp": 0,
+      "reputation_discount": 0.1
+    }
+  }
+]

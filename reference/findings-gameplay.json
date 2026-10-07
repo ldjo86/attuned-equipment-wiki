@@ -1,0 +1,2185 @@
+{
+  "version": "0.17.1",
+  "analysis_method": "Static inspection of uploaded archive and seven effective views: base alone, or base plus exactly one version-targeted overlay (overlay ranges are disjoint). No Minecraft commands executed and no game/server runtime test. Functions can remain callable by an administrator even when no normal gameplay entry path is identified.",
+  "files": [
+    "Armures-et-boucliers.md",
+    "Bonus-adaptatifs.md",
+    "Enclume.md",
+    "Equipements.md",
+    "Forge.md",
+    "Hauts-faits.md",
+    "Progression-et-histoire.md"
+  ],
+  "tracked_types": [
+    "sword",
+    "pickaxe",
+    "axe",
+    "shovel",
+    "hoe",
+    "bow",
+    "crossbow",
+    "shield",
+    "helmet",
+    "chestplate",
+    "leggings",
+    "boots"
+  ],
+  "standard_history_thresholds": [
+    25,
+    100,
+    250,
+    500,
+    1000
+  ],
+  "standard_stage_player_level_costs": [
+    3,
+    3,
+    4,
+    4,
+    4
+  ],
+  "standard_stage_material_rejections": {
+    "I": [],
+    "II": [
+      "wood"
+    ],
+    "III": [
+      "wood",
+      "stone",
+      "golden"
+    ],
+    "IV": [
+      "wood",
+      "stone",
+      "copper",
+      "golden"
+    ],
+    "V": "netherite required"
+  },
+  "standard_material_rejections_scope": "sword/pickaxe/axe/shovel/hoe/bow/crossbow; stage V netherite check also covers armor",
+  "shield_stages": [
+    {
+      "stage": 1,
+      "blocks": 100,
+      "danger_blocks": 0,
+      "bonus": "shield_tempered",
+      "lapis_blocks": 1,
+      "player_levels": 3
+    },
+    {
+      "stage": 2,
+      "blocks": 250,
+      "danger_blocks": 20,
+      "bonus": "shield_quick_guard",
+      "lapis_blocks": 1,
+      "player_levels": 3
+    },
+    {
+      "stage": 3,
+      "blocks": 500,
+      "danger_blocks": 0,
+      "materials": [
+        "diamond",
+        "netherite"
+      ],
+      "bonus": "shield_living_bulwark",
+      "lapis_blocks": 1,
+      "player_levels": 4
+    },
+    {
+      "stage": 4,
+      "blocks": 1000,
+      "danger_blocks": 75,
+      "materials": [
+        "netherite"
+      ],
+      "requires_lineage": "diamond_forged",
+      "minimum_cap": 4,
+      "bonus": "shield_bastion_call",
+      "lapis_blocks": 1,
+      "player_levels": 4
+    }
+  ],
+  "station": {
+    "inventory_size": 27,
+    "input_zero_index": 10,
+    "lapis_zero_index": 12,
+    "result_zero_index": 16,
+    "scan_every_ticks": 5,
+    "scan_step_blocks": 0.25,
+    "scan_approx_max_blocks": 5,
+    "claim_max_distance_blocks": 6,
+    "actions": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      99,
+      100
+    ],
+    "bonus_route_count": 63
+  },
+  "familiarity": {
+    "thresholds": [
+      250,
+      500,
+      750,
+      1000
+    ],
+    "script_chance": [
+      0.06,
+      0.09,
+      0.12,
+      0.15
+    ],
+    "script_intended_points": [
+      3,
+      4,
+      5,
+      6
+    ],
+    "script_damage_fraction_sign": "negative",
+    "script_effect_status": "sign and rounding require Java runtime confirmation; do not promise working repair"
+  },
+  "armor": {
+    "hurt_xp": 5,
+    "distance_segment_cm": 2500,
+    "xp_per_segment": 1,
+    "walk": [
+      "leggings",
+      "boots"
+    ],
+    "sprint": [
+      "leggings",
+      "boots"
+    ],
+    "crouch": [
+      "leggings"
+    ],
+    "swim": [
+      "helmet",
+      "chestplate"
+    ],
+    "danger_health_integer_max": 8,
+    "caps": {
+      "leather": 2,
+      "chainmail": 2,
+      "golden": 2,
+      "turtle": 2,
+      "copper": 5,
+      "iron": 5,
+      "diamond": 3,
+      "netherite": 2
+    }
+  },
+  "long_kill_min_distance_blocks": 24,
+  "shield_low_health_test": "Health * 10 <= 100",
+  "bosses": [
+    "ender_dragon",
+    "wither",
+    "elder_guardian",
+    "warden"
+  ],
+  "mastery_kills": {
+    "zombie": 1000,
+    "skeleton": 1000,
+    "creeper": 500,
+    "enderman": 250,
+    "blaze": 250
+  },
+  "veteran_thresholds": {
+    "weapon_kills": 1000,
+    "pickaxe_stone": 10000,
+    "axe_logs": 5000,
+    "shovel_terrain": 10000,
+    "hoe_crops": 5000,
+    "shield_blocks": 2500,
+    "armor_hits_per_piece": 2000
+  },
+  "recipes": [
+    {
+      "source": "data/attuned/recipe/bow/copper.json",
+      "type": "bow",
+      "material": "copper",
+      "max_damage": 512,
+      "evolution_cap": 5,
+      "pattern": [
+        " MS",
+        "M S",
+        " MS"
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:copper_ingot"
+        },
+        "S": {
+          "item": "minecraft:string"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/bow/diamond.json",
+      "type": "bow",
+      "material": "diamond",
+      "max_damage": 896,
+      "evolution_cap": 3,
+      "pattern": [
+        " MS",
+        "M S",
+        " MS"
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:diamond"
+        },
+        "S": {
+          "item": "minecraft:string"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/bow/golden.json",
+      "type": "bow",
+      "material": "golden",
+      "max_damage": 416,
+      "evolution_cap": 2,
+      "pattern": [
+        " MS",
+        "M S",
+        " MS"
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:gold_ingot"
+        },
+        "S": {
+          "item": "minecraft:string"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/bow/iron.json",
+      "type": "bow",
+      "material": "iron",
+      "max_damage": 640,
+      "evolution_cap": 5,
+      "pattern": [
+        " MS",
+        "M S",
+        " MS"
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:iron_ingot"
+        },
+        "S": {
+          "item": "minecraft:string"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/bow/netherite.json",
+      "type": "bow",
+      "material": "netherite",
+      "max_damage": 1152,
+      "evolution_cap": 2,
+      "pattern": [
+        " MS",
+        "M S",
+        " MS"
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:netherite_ingot"
+        },
+        "S": {
+          "item": "minecraft:string"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/bow/stone.json",
+      "type": "bow",
+      "material": "stone",
+      "max_damage": 448,
+      "evolution_cap": 5,
+      "pattern": [
+        " MS",
+        "M S",
+        " MS"
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:cobblestone"
+        },
+        "S": {
+          "item": "minecraft:string"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/crossbow/copper.json",
+      "type": "crossbow",
+      "material": "copper",
+      "max_damage": 620,
+      "evolution_cap": 5,
+      "pattern": [
+        "M M",
+        "STS",
+        " M "
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:copper_ingot"
+        },
+        "S": {
+          "item": "minecraft:string"
+        },
+        "T": {
+          "item": "minecraft:tripwire_hook"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/crossbow/diamond.json",
+      "type": "crossbow",
+      "material": "diamond",
+      "max_damage": 1050,
+      "evolution_cap": 3,
+      "pattern": [
+        "M M",
+        "STS",
+        " M "
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:diamond"
+        },
+        "S": {
+          "item": "minecraft:string"
+        },
+        "T": {
+          "item": "minecraft:tripwire_hook"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/crossbow/golden.json",
+      "type": "crossbow",
+      "material": "golden",
+      "max_damage": 500,
+      "evolution_cap": 2,
+      "pattern": [
+        "M M",
+        "STS",
+        " M "
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:gold_ingot"
+        },
+        "S": {
+          "item": "minecraft:string"
+        },
+        "T": {
+          "item": "minecraft:tripwire_hook"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/crossbow/iron.json",
+      "type": "crossbow",
+      "material": "iron",
+      "max_damage": 760,
+      "evolution_cap": 5,
+      "pattern": [
+        "M M",
+        "STS",
+        " M "
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:iron_ingot"
+        },
+        "S": {
+          "item": "minecraft:string"
+        },
+        "T": {
+          "item": "minecraft:tripwire_hook"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/crossbow/netherite.json",
+      "type": "crossbow",
+      "material": "netherite",
+      "max_damage": 1350,
+      "evolution_cap": 2,
+      "pattern": [
+        "M M",
+        "STS",
+        " M "
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:netherite_ingot"
+        },
+        "S": {
+          "item": "minecraft:string"
+        },
+        "T": {
+          "item": "minecraft:tripwire_hook"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/crossbow/stone.json",
+      "type": "crossbow",
+      "material": "stone",
+      "max_damage": 540,
+      "evolution_cap": 5,
+      "pattern": [
+        "M M",
+        "STS",
+        " M "
+      ],
+      "ingredients": {
+        "M": {
+          "item": "minecraft:cobblestone"
+        },
+        "S": {
+          "item": "minecraft:string"
+        },
+        "T": {
+          "item": "minecraft:tripwire_hook"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/shield/diamond.json",
+      "type": "shield",
+      "material": "diamond",
+      "max_damage": 850,
+      "evolution_cap": 3,
+      "pattern": [
+        "DID",
+        "DDD",
+        " D "
+      ],
+      "ingredients": {
+        "D": {
+          "item": "minecraft:diamond"
+        },
+        "I": {
+          "item": "minecraft:iron_ingot"
+        }
+      }
+    },
+    {
+      "source": "data/attuned/recipe/shield/iron.json",
+      "type": "shield",
+      "material": "iron",
+      "max_damage": 600,
+      "evolution_cap": 4,
+      "pattern": [
+        "IPI",
+        "III",
+        " I "
+      ],
+      "ingredients": {
+        "I": {
+          "item": "minecraft:iron_ingot"
+        },
+        "P": {
+          "tag": "minecraft:planks"
+        }
+      }
+    }
+  ],
+  "bonuses": [
+    {
+      "code": 1,
+      "modifier": "anvil/history/bow_steady",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:steady_hand": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 1,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 1
+    },
+    {
+      "code": 2,
+      "modifier": "anvil/history/bow_long",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:longshot": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 3,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 2
+    },
+    {
+      "code": 4,
+      "modifier": "anvil/history/bow_power",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "minecraft:power": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 5,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 3
+    },
+    {
+      "code": 5,
+      "modifier": "anvil/history/bow_punch",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "minecraft:punch": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 5,
+        "source_line": 7,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 4
+    },
+    {
+      "code": 6,
+      "modifier": "anvil/history/bow_flame",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "minecraft:flame": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 8,
+        "source_line": 9,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 5
+    },
+    {
+      "code": 10,
+      "modifier": "anvil/history/sword_impact",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:impact": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 11,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 6
+    },
+    {
+      "code": 11,
+      "modifier": "anvil/history/sword_execution",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:execution": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 13,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 7
+    },
+    {
+      "code": 12,
+      "modifier": "anvil/history/sword_siphon",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:siphon": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 15,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 8
+    },
+    {
+      "code": 13,
+      "modifier": "anvil/history/sword_infernal",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:infernal_edge": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 5,
+        "source_line": 17,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 9
+    },
+    {
+      "code": 14,
+      "modifier": "anvil/history/sword_bind",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:bind": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 8,
+        "source_line": 19,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 10
+    },
+    {
+      "code": 20,
+      "modifier": "anvil/history/pick_endurance",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:endurance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 21,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 11
+    },
+    {
+      "code": 21,
+      "modifier": "anvil/history/pick_excavation",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:excavation": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 23,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 12
+    },
+    {
+      "code": 22,
+      "modifier": "anvil/history/pick_reach",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:reach": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 25,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 13
+    },
+    {
+      "code": 23,
+      "modifier": "anvil/history/pick_endurance2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:endurance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 5,
+        "source_line": 27,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 14
+    },
+    {
+      "code": 24,
+      "modifier": "anvil/history/pick_excavation2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:excavation": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 8,
+        "source_line": 29,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 15
+    },
+    {
+      "code": 30,
+      "modifier": "anvil/history/axe_endurance",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:endurance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 31,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 16
+    },
+    {
+      "code": 31,
+      "modifier": "anvil/history/axe_lumberjack",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:lumberjack": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 33,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 17
+    },
+    {
+      "code": 32,
+      "modifier": "anvil/history/axe_impact",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:impact": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 35,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 18
+    },
+    {
+      "code": 33,
+      "modifier": "anvil/history/axe_lumberjack2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:lumberjack": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 5,
+        "source_line": 37,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 19
+    },
+    {
+      "code": 34,
+      "modifier": "anvil/history/axe_impact2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:impact": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 8,
+        "source_line": 39,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 20
+    },
+    {
+      "code": 40,
+      "modifier": "anvil/history/shovel_endurance",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:endurance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 41,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 21
+    },
+    {
+      "code": 41,
+      "modifier": "anvil/history/shovel_excavation",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:excavation": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 43,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 22
+    },
+    {
+      "code": 42,
+      "modifier": "anvil/history/shovel_reach",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:reach": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 45,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 23
+    },
+    {
+      "code": 43,
+      "modifier": "anvil/history/shovel_endurance2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:endurance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 5,
+        "source_line": 47,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 24
+    },
+    {
+      "code": 44,
+      "modifier": "anvil/history/shovel_excavation2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:excavation": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 8,
+        "source_line": 49,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 25
+    },
+    {
+      "code": 50,
+      "modifier": "anvil/history/hoe_endurance",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:endurance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 51,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 26
+    },
+    {
+      "code": 51,
+      "modifier": "anvil/history/hoe_harvest",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:harvest": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 53,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 27
+    },
+    {
+      "code": 52,
+      "modifier": "anvil/history/hoe_reach",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:reach": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 55,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 28
+    },
+    {
+      "code": 53,
+      "modifier": "anvil/history/hoe_harvest2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:harvest": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 5,
+        "source_line": 57,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 29
+    },
+    {
+      "code": 54,
+      "modifier": "anvil/history/hoe_endurance2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:endurance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 8,
+        "source_line": 59,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 30
+    },
+    {
+      "code": 60,
+      "modifier": "anvil/history/cross_rapid",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:rapid_mechanism": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 61,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 31
+    },
+    {
+      "code": 61,
+      "modifier": "anvil/history/cross_piercing",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:reinforced_piercing": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 63,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 32
+    },
+    {
+      "code": 62,
+      "modifier": "anvil/history/cross_siege",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:siege": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 65,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 33
+    },
+    {
+      "code": 63,
+      "modifier": "anvil/history/cross_rapid2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:rapid_mechanism": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 5,
+        "source_line": 67,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 34
+    },
+    {
+      "code": 64,
+      "modifier": "anvil/history/cross_siege2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:siege": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 8,
+        "source_line": 69,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 35
+    },
+    {
+      "code": 70,
+      "modifier": "anvil/history/shield_endurance",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:shield_tempered": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 71,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 36
+    },
+    {
+      "code": 71,
+      "modifier": "anvil/history/shield_bastion",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:shield_quick_guard": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 73,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 37
+    },
+    {
+      "code": 72,
+      "modifier": "anvil/history/shield_riposte",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:shield_living_bulwark": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 75,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 38
+    },
+    {
+      "code": 73,
+      "modifier": "anvil/history/shield_endurance2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:shield_bastion_call": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 1,
+        "source_line": 77,
+        "item": "minecraft:lapis_block"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 39
+    },
+    {
+      "code": 110,
+      "modifier": "anvil/history/helmet_deep_breath",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:deep_breath": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 79,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 40
+    },
+    {
+      "code": 111,
+      "modifier": "anvil/history/helmet_vigilance",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:vigilance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 81,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 41
+    },
+    {
+      "code": 112,
+      "modifier": "anvil/history/helmet_abyssal_sight",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:abyssal_sight": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 83,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 42
+    },
+    {
+      "code": 113,
+      "modifier": "anvil/history/helmet_iron_mind",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:iron_mind": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 85,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 43
+    },
+    {
+      "code": 114,
+      "modifier": "anvil/history/helmet_focus",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:focus": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 87,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 44
+    },
+    {
+      "code": 115,
+      "modifier": "anvil/history/helmet_vigilance2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:vigilance": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 89,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 45
+    },
+    {
+      "code": 120,
+      "modifier": "anvil/history/chestplate_second_wind",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:second_wind": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 91,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 46
+    },
+    {
+      "code": 121,
+      "modifier": "anvil/history/chestplate_abyssal_guard",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:abyssal_guard": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 93,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 47
+    },
+    {
+      "code": 122,
+      "modifier": "anvil/history/chestplate_carapace",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:carapace": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 95,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 48
+    },
+    {
+      "code": 123,
+      "modifier": "anvil/history/chestplate_emberguard",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:emberguard": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 97,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 49
+    },
+    {
+      "code": 124,
+      "modifier": "anvil/history/chestplate_blast_anchor",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:blast_anchor": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 99,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 50
+    },
+    {
+      "code": 125,
+      "modifier": "anvil/history/chestplate_vital_guard",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:vital_guard": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 101,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 51
+    },
+    {
+      "code": 130,
+      "modifier": "anvil/history/leggings_shadow_step",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:shadow_step": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 103,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 52
+    },
+    {
+      "code": 131,
+      "modifier": "anvil/history/leggings_momentum",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:momentum": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 105,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 53
+    },
+    {
+      "code": 132,
+      "modifier": "anvil/history/leggings_stability",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:stability": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 107,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 54
+    },
+    {
+      "code": 133,
+      "modifier": "anvil/history/leggings_trailblazer",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:trailblazer": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 109,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 55
+    },
+    {
+      "code": 134,
+      "modifier": "anvil/history/leggings_agility",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:agility": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 111,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 56
+    },
+    {
+      "code": 135,
+      "modifier": "anvil/history/leggings_shadow_step2",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:shadow_step": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 113,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 57
+    },
+    {
+      "code": 140,
+      "modifier": "anvil/history/boots_feather_step",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:feather_step": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 115,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 58
+    },
+    {
+      "code": 141,
+      "modifier": "anvil/history/boots_sure_foot",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:sure_foot": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 117,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 59
+    },
+    {
+      "code": 142,
+      "modifier": "anvil/history/boots_stride",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:stride": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 119,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 60
+    },
+    {
+      "code": 143,
+      "modifier": "anvil/history/boots_wanderer",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:wanderer": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 121,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 61
+    },
+    {
+      "code": 144,
+      "modifier": "anvil/history/boots_runner",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:runner": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 123,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 62
+    },
+    {
+      "code": 145,
+      "modifier": "anvil/history/boots_cinder_step",
+      "enchantment_changes": [
+        {
+          "enchantments": {
+            "attuned:cinder_step": 1
+          },
+          "add": true
+        }
+      ],
+      "cost": {
+        "quantity": 3,
+        "source_line": 125,
+        "item": "minecraft:lapis_lazuli"
+      },
+      "source": "data/attuned/function/station/apply_bonus.mcfunction",
+      "source_line": 63
+    }
+  ],
+  "issues": [
+    {
+      "id": "legacy_anvil_session_missing",
+      "status": "confirmed_static",
+      "severity": "high",
+      "summary": "Current anvil/open only invokes station scan; anvil/process requires positive attw_anvil_t and no code in base/overlays sets it positive. Old manual repair, detailed history button and armor reforge have no normal session entry.",
+      "sources": [
+        "data/attuned/function/anvil/open.mcfunction:1-4",
+        "data/attuned/function/anvil/process.mcfunction:1-6,66-68",
+        "data/attuned/function/player_init.mcfunction:36"
+      ]
+    },
+    {
+      "id": "armor_generic_forge_resource_consumption",
+      "status": "confirmed_static_path",
+      "severity": "high",
+      "summary": "forge/open routes tracked copper/iron/diamond armor to generic equipment menus. Generic diamond reforge charges 2/3/4 diamonds but dispatch only contains five weapon/tool types, so an armor item can pay with no transformation. Gameplay reproduction still required.",
+      "sources": [
+        "data/attuned/function/forge/open.mcfunction:61-63",
+        "overlay_88/data/attuned/function/forge/open.mcfunction:66-68",
+        "data/attuned/function/forge/equipment/to_diamond.mcfunction:1-7",
+        "data/attuned/function/forge/equipment/to_diamond_e2.mcfunction:1-5",
+        "data/attuned/function/forge/equipment/perform_to_diamond_keep_evolution.mcfunction"
+      ]
+    },
+    {
+      "id": "volley_old_longshot_flag",
+      "status": "confirmed_static",
+      "severity": "medium",
+      "summary": "Forge volley requires applied.longshot; new station bow_long modifier sets applied.bow_long. A new item following only station progression does not obtain the required old marker.",
+      "sources": [
+        "data/attuned/function/forge/capstone_volley.mcfunction:9-10",
+        "data/attuned/item_modifier/anvil/history/bow_long.json"
+      ]
+    },
+    {
+      "id": "shield_smithing_base_unrestricted",
+      "status": "confirmed_static",
+      "severity": "medium",
+      "summary": "Netherite shield smithing recipe accepts any minecraft:shield, whereas text says diamond shield. Skipping diamond reforge does not add diamond_forged and cannot bypass final-stage lineage check.",
+      "sources": [
+        "data/attuned/recipe/shield/netherite_upgrade.json",
+        "data/attuned/function/forge/shield_to_netherite.mcfunction:1",
+        "data/attuned/function/station/check_shield.mcfunction:16"
+      ]
+    },
+    {
+      "id": "familiarity_repair_negative_set_damage",
+      "status": "suspected_requires_java_validation",
+      "severity": "high",
+      "summary": "All scripted tool/ranged/shield repair modifiers use negative additive set_damage fractions. Standard set_damage semantics may instead remove remaining durability; Java 1.21.x runtime confirmation needed. Do not conflate with change_item_damage in weapon/armor 1.21.11 enchantments.",
+      "sources": [
+        "data/attuned/item_modifier/history/familiarity/repair/tool/rank_1/wood.json:1-5",
+        "data/attuned/predicate/familiarity/repair_1.json:1-4",
+        "data/attuned/function/history/familiarity/repair/tool.mcfunction:1-9"
+      ]
+    },
+    {
+      "id": "bastion_guardian_dimension_maintenance",
+      "status": "suspected_requires_runtime",
+      "severity": "medium",
+      "summary": "Summoning uses execute at player, but slow_20t aging/removal uses @e without per-dimension execute. Lifetime of 600 ticks cannot be promised across Nether/End from static code alone.",
+      "sources": [
+        "data/attuned/function/shield/summon_bastion.mcfunction:1-4",
+        "data/attuned/function/maintenance/slow_20t.mcfunction:5-7",
+        "data/attuned/function/tick.mcfunction:7"
+      ]
+    },
+    {
+      "id": "station_history_icon_inert",
+      "status": "confirmed_static",
+      "severity": "low",
+      "summary": "Station Item History icon uses action:0, while request only handles 1..6,99,100. It is descriptive, not a history report action.",
+      "sources": [
+        "data/attuned/function/station/render_controls.mcfunction:43-44",
+        "data/attuned/function/station/request.mcfunction:4-7"
+      ]
+    },
+    {
+      "id": "armor_six_bonus_five_stage_budget",
+      "status": "intended_or_design_constraint",
+      "severity": "information",
+      "summary": "Six adaptive choices per armor type but at most five history stages; one cannot assume all six are acquired on one fresh item by station progression alone.",
+      "sources": [
+        "data/attuned/function/station/select/helmet.mcfunction:12-23",
+        "data/attuned/function/station/evaluate.mcfunction:25-42"
+      ]
+    }
+  ],
+  "literal_reference_orphans_by_view": [
+    {
+      "view": "base",
+      "no_incoming_literal_function_reference": [
+        "anvil/error_lapis_hand",
+        "anvil/history/bow_long",
+        "anvil/history/bow_steady",
+        "armor/add/boots_crouch_segments",
+        "armor/add/boots_explosion_hits",
+        "armor/add/boots_projectile_hits",
+        "armor/add/boots_swim_segments",
+        "armor/add/chestplate_crouch_segments",
+        "armor/add/chestplate_fall_hits",
+        "armor/add/chestplate_projectile_hits",
+        "armor/add/chestplate_sprint_segments",
+        "armor/add/chestplate_walk_segments",
+        "armor/add/helmet_crouch_segments",
+        "armor/add/helmet_explosion_hits",
+        "armor/add/helmet_fall_hits",
+        "armor/add/helmet_fire_hits",
+        "armor/add/helmet_sprint_segments",
+        "armor/add/helmet_walk_segments",
+        "armor/add/leggings_explosion_hits",
+        "armor/add/leggings_fall_hits",
+        "armor/add/leggings_fire_hits",
+        "armor/add/leggings_projectile_hits",
+        "armor/add/leggings_swim_segments",
+        "armor/event/fire_boots",
+        "armor/event/fire_chest",
+        "forge/equipment/axe_iron_to_diamond",
+        "forge/equipment/axe_stone_to_iron",
+        "forge/equipment/hoe_iron_to_diamond",
+        "forge/equipment/hoe_stone_to_iron",
+        "forge/equipment/pickaxe_iron_to_diamond",
+        "forge/equipment/pickaxe_stone_to_iron",
+        "forge/equipment/shovel_iron_to_diamond",
+        "forge/equipment/shovel_stone_to_iron",
+        "forge/equipment/sword_iron_to_diamond",
+        "forge/equipment/sword_stone_to_iron",
+        "history/catchup/level_1",
+        "history/catchup/level_2",
+        "history/catchup/level_3",
+        "history/catchup/level_4",
+        "history/catchup/level_5",
+        "history/event/inc_mainhand_offhand_blocks",
+        "history/event/inc_offhand_mainhand_blocks",
+        "history/ranged/level_1",
+        "history/ranged/level_2",
+        "history/ranged/level_3",
+        "history/ranged/level_4",
+        "history/ranged/level_5",
+        "history/use/axe_copper",
+        "history/use/hoe_copper",
+        "history/use/pickaxe_copper",
+        "history/use/shovel_copper",
+        "history/use/sword_copper"
+      ]
+    },
+    {
+      "view": "base + overlay_57",
+      "no_incoming_literal_function_reference": [
+        "anvil/error_lapis_hand",
+        "anvil/history/bow_long",
+        "anvil/history/bow_steady",
+        "armor/add/boots_crouch_segments",
+        "armor/add/boots_explosion_hits",
+        "armor/add/boots_projectile_hits",
+        "armor/add/boots_swim_segments",
+        "armor/add/chestplate_crouch_segments",
+        "armor/add/chestplate_fall_hits",
+        "armor/add/chestplate_projectile_hits",
+        "armor/add/chestplate_sprint_segments",
+        "armor/add/chestplate_walk_segments",
+        "armor/add/helmet_crouch_segments",
+        "armor/add/helmet_explosion_hits",
+        "armor/add/helmet_fall_hits",
+        "armor/add/helmet_fire_hits",
+        "armor/add/helmet_sprint_segments",
+        "armor/add/helmet_walk_segments",
+        "armor/add/leggings_explosion_hits",
+        "armor/add/leggings_fall_hits",
+        "armor/add/leggings_fire_hits",
+        "armor/add/leggings_projectile_hits",
+        "armor/add/leggings_swim_segments",
+        "armor/event/fire_boots",
+        "armor/event/fire_chest",
+        "forge/equipment/axe_iron_to_diamond",
+        "forge/equipment/axe_stone_to_iron",
+        "forge/equipment/hoe_iron_to_diamond",
+        "forge/equipment/hoe_stone_to_iron",
+        "forge/equipment/pickaxe_iron_to_diamond",
+        "forge/equipment/pickaxe_stone_to_iron",
+        "forge/equipment/shovel_iron_to_diamond",
+        "forge/equipment/shovel_stone_to_iron",
+        "forge/equipment/sword_iron_to_diamond",
+        "forge/equipment/sword_stone_to_iron",
+        "history/catchup/level_1",
+        "history/catchup/level_2",
+        "history/catchup/level_3",
+        "history/catchup/level_4",
+        "history/catchup/level_5",
+        "history/event/inc_mainhand_offhand_blocks",
+        "history/event/inc_offhand_mainhand_blocks",
+        "history/ranged/level_1",
+        "history/ranged/level_2",
+        "history/ranged/level_3",
+        "history/ranged/level_4",
+        "history/ranged/level_5",
+        "history/use/axe_copper",
+        "history/use/hoe_copper",
+        "history/use/pickaxe_copper",
+        "history/use/shovel_copper",
+        "history/use/sword_copper"
+      ]
+    },
+    {
+      "view": "base + overlay_61",
+      "no_incoming_literal_function_reference": [
+        "anvil/error_lapis_hand",
+        "anvil/history/bow_long",
+        "anvil/history/bow_steady",
+        "armor/add/boots_crouch_segments",
+        "armor/add/boots_explosion_hits",
+        "armor/add/boots_projectile_hits",
+        "armor/add/boots_swim_segments",
+        "armor/add/chestplate_crouch_segments",
+        "armor/add/chestplate_fall_hits",
+        "armor/add/chestplate_projectile_hits",
+        "armor/add/chestplate_sprint_segments",
+        "armor/add/chestplate_walk_segments",
+        "armor/add/helmet_crouch_segments",
+        "armor/add/helmet_explosion_hits",
+        "armor/add/helmet_fall_hits",
+        "armor/add/helmet_fire_hits",
+        "armor/add/helmet_sprint_segments",
+        "armor/add/helmet_walk_segments",
+        "armor/add/leggings_explosion_hits",
+        "armor/add/leggings_fall_hits",
+        "armor/add/leggings_fire_hits",
+        "armor/add/leggings_projectile_hits",
+        "armor/add/leggings_swim_segments",
+        "armor/event/fire_boots",
+        "armor/event/fire_chest",
+        "forge/equipment/axe_iron_to_diamond",
+        "forge/equipment/axe_stone_to_iron",
+        "forge/equipment/hoe_iron_to_diamond",
+        "forge/equipment/hoe_stone_to_iron",
+        "forge/equipment/pickaxe_iron_to_diamond",
+        "forge/equipment/pickaxe_stone_to_iron",
+        "forge/equipment/shovel_iron_to_diamond",
+        "forge/equipment/shovel_stone_to_iron",
+        "forge/equipment/sword_iron_to_diamond",
+        "forge/equipment/sword_stone_to_iron",
+        "history/catchup/level_1",
+        "history/catchup/level_2",
+        "history/catchup/level_3",
+        "history/catchup/level_4",
+        "history/catchup/level_5",
+        "history/event/inc_mainhand_offhand_blocks",
+        "history/event/inc_offhand_mainhand_blocks",
+        "history/ranged/level_1",
+        "history/ranged/level_2",
+        "history/ranged/level_3",
+        "history/ranged/level_4",
+        "history/ranged/level_5",
+        "history/use/axe_copper",
+        "history/use/hoe_copper",
+        "history/use/pickaxe_copper",
+        "history/use/shovel_copper",
+        "history/use/sword_copper"
+      ]
+    },
+    {
+      "view": "base + overlay_71",
+      "no_incoming_literal_function_reference": [
+        "anvil/error_lapis_hand",
+        "anvil/history/bow_long",
+        "anvil/history/bow_steady",
+        "armor/add/boots_crouch_segments",
+        "armor/add/boots_explosion_hits",
+        "armor/add/boots_projectile_hits",
+        "armor/add/boots_swim_segments",
+        "armor/add/chestplate_crouch_segments",
+        "armor/add/chestplate_fall_hits",
+        "armor/add/chestplate_projectile_hits",
+        "armor/add/chestplate_sprint_segments",
+        "armor/add/chestplate_walk_segments",
+        "armor/add/helmet_crouch_segments",
+        "armor/add/helmet_explosion_hits",
+        "armor/add/helmet_fall_hits",
+        "armor/add/helmet_fire_hits",
+        "armor/add/helmet_sprint_segments",
+        "armor/add/helmet_walk_segments",
+        "armor/add/leggings_explosion_hits",
+        "armor/add/leggings_fall_hits",
+        "armor/add/leggings_fire_hits",
+        "armor/add/leggings_projectile_hits",
+        "armor/add/leggings_swim_segments",
+        "armor/event/fire_boots",
+        "armor/event/fire_chest",
+        "forge/equipment/axe_iron_to_diamond",
+        "forge/equipment/axe_stone_to_iron",
+        "forge/equipment/hoe_iron_to_diamond",
+        "forge/equipment/hoe_stone_to_iron",
+        "forge/equipment/pickaxe_iron_to_diamond",
+        "forge/equipment/pickaxe_stone_to_iron",
+        "forge/equipment/shovel_iron_to_diamond",
+        "forge/equipment/shovel_stone_to_iron",
+        "forge/equipment/sword_iron_to_diamond",
+        "forge/equipment/sword_stone_to_iron",
+        "history/catchup/level_1",
+        "history/catchup/level_2",
+        "history/catchup/level_3",
+        "history/catchup/level_4",
+        "history/catchup/level_5",
+        "history/event/inc_mainhand_offhand_blocks",
+        "history/event/inc_offhand_mainhand_blocks",
+        "history/ranged/level_1",
+        "history/ranged/level_2",
+        "history/ranged/level_3",
+        "history/ranged/level_4",
+        "history/ranged/level_5",
+        "history/use/axe_copper",
+        "history/use/hoe_copper",
+        "history/use/pickaxe_copper",
+        "history/use/shovel_copper",
+        "history/use/sword_copper"
+      ]
+    },
+    {
+      "view": "base + overlay_80",
+      "no_incoming_literal_function_reference": [
+        "anvil/error_lapis_hand",
+        "anvil/history/bow_long",
+        "anvil/history/bow_steady",
+        "armor/add/boots_crouch_segments",
+        "armor/add/boots_explosion_hits",
+        "armor/add/boots_projectile_hits",
+        "armor/add/boots_swim_segments",
+        "armor/add/chestplate_crouch_segments",
+        "armor/add/chestplate_fall_hits",
+        "armor/add/chestplate_projectile_hits",
+        "armor/add/chestplate_sprint_segments",
+        "armor/add/chestplate_walk_segments",
+        "armor/add/helmet_crouch_segments",
+        "armor/add/helmet_explosion_hits",
+        "armor/add/helmet_fall_hits",
+        "armor/add/helmet_fire_hits",
+        "armor/add/helmet_sprint_segments",
+        "armor/add/helmet_walk_segments",
+        "armor/add/leggings_explosion_hits",
+        "armor/add/leggings_fall_hits",
+        "armor/add/leggings_fire_hits",
+        "armor/add/leggings_projectile_hits",
+        "armor/add/leggings_swim_segments",
+        "armor/event/fire_boots",
+        "armor/event/fire_chest",
+        "forge/equipment/axe_iron_to_diamond",
+        "forge/equipment/axe_stone_to_iron",
+        "forge/equipment/hoe_iron_to_diamond",
+        "forge/equipment/hoe_stone_to_iron",
+        "forge/equipment/pickaxe_iron_to_diamond",
+        "forge/equipment/pickaxe_stone_to_iron",
+        "forge/equipment/shovel_iron_to_diamond",
+        "forge/equipment/shovel_stone_to_iron",
+        "forge/equipment/sword_iron_to_diamond",
+        "forge/equipment/sword_stone_to_iron",
+        "history/catchup/level_1",
+        "history/catchup/level_2",
+        "history/catchup/level_3",
+        "history/catchup/level_4",
+        "history/catchup/level_5",
+        "history/event/inc_mainhand_offhand_blocks",
+        "history/event/inc_offhand_mainhand_blocks",
+        "history/ranged/level_1",
+        "history/ranged/level_2",
+        "history/ranged/level_3",
+        "history/ranged/level_4",
+        "history/ranged/level_5",
+        "history/use/axe_copper",
+        "history/use/hoe_copper",
+        "history/use/pickaxe_copper",
+        "history/use/shovel_copper",
+        "history/use/sword_copper"
+      ]
+    },
+    {
+      "view": "base + overlay_88",
+      "no_incoming_literal_function_reference": [
+        "anvil/error_lapis_hand",
+        "anvil/history/bow_long",
+        "anvil/history/bow_steady",
+        "armor/add/boots_crouch_segments",
+        "armor/add/boots_explosion_hits",
+        "armor/add/boots_projectile_hits",
+        "armor/add/boots_swim_segments",
+        "armor/add/chestplate_crouch_segments",
+        "armor/add/chestplate_fall_hits",
+        "armor/add/chestplate_projectile_hits",
+        "armor/add/chestplate_sprint_segments",
+        "armor/add/chestplate_walk_segments",
+        "armor/add/helmet_crouch_segments",
+        "armor/add/helmet_explosion_hits",
+        "armor/add/helmet_fall_hits",
+        "armor/add/helmet_fire_hits",
+        "armor/add/helmet_sprint_segments",
+        "armor/add/helmet_walk_segments",
+        "armor/add/leggings_explosion_hits",
+        "armor/add/leggings_fall_hits",
+        "armor/add/leggings_fire_hits",
+        "armor/add/leggings_projectile_hits",
+        "armor/add/leggings_swim_segments",
+        "armor/event/fire_boots",
+        "armor/event/fire_chest",
+        "forge/equipment/axe_iron_to_diamond",
+        "forge/equipment/axe_stone_to_iron",
+        "forge/equipment/hoe_iron_to_diamond",
+        "forge/equipment/hoe_stone_to_iron",
+        "forge/equipment/pickaxe_iron_to_diamond",
+        "forge/equipment/pickaxe_stone_to_iron",
+        "forge/equipment/shovel_iron_to_diamond",
+        "forge/equipment/shovel_stone_to_iron",
+        "forge/equipment/sword_iron_to_diamond",
+        "forge/equipment/sword_stone_to_iron",
+        "history/catchup/level_1",
+        "history/catchup/level_2",
+        "history/catchup/level_3",
+        "history/catchup/level_4",
+        "history/catchup/level_5",
+        "history/event/inc_mainhand_offhand_blocks",
+        "history/event/inc_offhand_mainhand_blocks",
+        "history/ranged/level_1",
+        "history/ranged/level_2",
+        "history/ranged/level_3",
+        "history/ranged/level_4",
+        "history/ranged/level_5"
+      ]
+    },
+    {
+      "view": "base + overlay_94",
+      "no_incoming_literal_function_reference": [
+        "anvil/error_lapis_hand",
+        "anvil/history/bow_long",
+        "anvil/history/bow_steady",
+        "armor/add/boots_crouch_segments",
+        "armor/add/boots_explosion_hits",
+        "armor/add/boots_projectile_hits",
+        "armor/add/boots_swim_segments",
+        "armor/add/chestplate_crouch_segments",
+        "armor/add/chestplate_fall_hits",
+        "armor/add/chestplate_projectile_hits",
+        "armor/add/chestplate_sprint_segments",
+        "armor/add/chestplate_walk_segments",
+        "armor/add/helmet_crouch_segments",
+        "armor/add/helmet_explosion_hits",
+        "armor/add/helmet_fall_hits",
+        "armor/add/helmet_fire_hits",
+        "armor/add/helmet_sprint_segments",
+        "armor/add/helmet_walk_segments",
+        "armor/add/leggings_explosion_hits",
+        "armor/add/leggings_fall_hits",
+        "armor/add/leggings_fire_hits",
+        "armor/add/leggings_projectile_hits",
+        "armor/add/leggings_swim_segments",
+        "armor/event/fire_boots",
+        "armor/event/fire_chest",
+        "forge/equipment/axe_iron_to_diamond",
+        "forge/equipment/axe_stone_to_iron",
+        "forge/equipment/hoe_iron_to_diamond",
+        "forge/equipment/hoe_stone_to_iron",
+        "forge/equipment/pickaxe_iron_to_diamond",
+        "forge/equipment/pickaxe_stone_to_iron",
+        "forge/equipment/shovel_iron_to_diamond",
+        "forge/equipment/shovel_stone_to_iron",
+        "forge/equipment/sword_iron_to_diamond",
+        "forge/equipment/sword_stone_to_iron",
+        "history/catchup/level_1",
+        "history/catchup/level_2",
+        "history/catchup/level_3",
+        "history/catchup/level_4",
+        "history/catchup/level_5",
+        "history/event/inc_mainhand_offhand_blocks",
+        "history/event/inc_offhand_mainhand_blocks",
+        "history/ranged/level_1",
+        "history/ranged/level_2",
+        "history/ranged/level_3",
+        "history/ranged/level_4",
+        "history/ranged/level_5"
+      ]
+    }
+  ],
+  "orphan_interpretation": "No incoming literal function reference in an effective view (base alone or base plus exactly one targeted overlay) is a candidate, not a proof of impossibility. Load/tick tags included; administratively callable functions remain callable. Copper use functions are base orphans but become referenced by modern tick overlays. Catchup and ranged level_1..5 remain orphans in all seven views.",
+  "external_semantics_research": {
+    "official_bedrock_only": "https://learn.microsoft.com/en-us/minecraft/creator/reference/content/loottablereference/examples/loottabledefinitions/itemmodtables?view=minecraft-bedrock-stable",
+    "limitation": "Bedrock docs alone do not prove Java behavior; repair suspicion remains explicitly unconfirmed in wiki."
+  }
+}

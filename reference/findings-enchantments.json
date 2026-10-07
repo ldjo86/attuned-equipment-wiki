@@ -1,0 +1,277 @@
+{
+  "scope": "Lecture statique complète des 73 enchantements et variantes ; menus de table, 27 livres, 3 tomes, 24 branches de bonus de butin, 10 reliques, 15 recettes, 36 définitions d’échange. Les 63 tables de catalyseurs sont couvertes par le volet forge de l’équipe.",
+  "runtime_validation": "Aucun serveur Minecraft lancé et aucune commande du datapack exécutée. Toutes les valeurs sont des extractions de fichiers ou des déductions explicitement signalées.",
+  "counts": {
+    "custom_enchantments": 73,
+    "learnable_attuned_knowledge": 20,
+    "vanilla_enchantments_with_menu_branch_including_1_21_11_lunge": 43,
+    "reachable_standard_vanilla_level_rows": 123,
+    "recipe_definitions": 15,
+    "recipes_bows": 6,
+    "recipes_crossbows": 6,
+    "recipes_shields": 3,
+    "attuned_loot_tables": 100,
+    "loot_tables_catalysts": 63,
+    "loot_tables_books": 27,
+    "loot_tables_relics": 10,
+    "vanilla_loot_tables_overridden": 4,
+    "loot_bonus_advancements": 24,
+    "loot_bonus_weighted_outcomes": 105,
+    "villager_trade_definitions": 36,
+    "villager_trade_tags": 7,
+    "tome_types": 3,
+    "tome_rank_purchases": 11,
+    "relics_initialized_for_tracking": 9,
+    "relics_narrative_gold_exception": 1
+  },
+  "confirmed_rules": {
+    "classic": [
+      {
+        "tier": 1,
+        "power_min": 1,
+        "lapis_lazuli": 1,
+        "xp_levels": 1,
+        "minecraft_enchant_with_levels": 5,
+        "bonus_attempts": 5
+      },
+      {
+        "tier": 2,
+        "power_min": 8,
+        "lapis_lazuli": 2,
+        "xp_levels": 2,
+        "minecraft_enchant_with_levels": 15,
+        "bonus_attempts": 10
+      },
+      {
+        "tier": 3,
+        "power_min": 15,
+        "lapis_lazuli": 3,
+        "xp_levels": 3,
+        "minecraft_enchant_with_levels": 30,
+        "bonus_attempts": 18
+      }
+    ],
+    "mastery": {
+      "power_min": 15,
+      "lapis_lazuli": 1,
+      "xp_levels": 5,
+      "bonus_attempts": 40,
+      "bonus_limit": 1,
+      "bonus_candidate_count": 25
+    },
+    "bookshelves": {
+      "positions_examined": 32,
+      "normal_power": 1,
+      "nonempty_chiseled_power": 1,
+      "maximum_power": 15,
+      "knowledge_checks": "Présence d’un enchantement dans minecraft:stored_enchantments du livre ; niveau non conservé",
+      "session_ticks": 200
+    },
+    "relic_probabilities": [
+      {
+        "chest": "ancient_city",
+        "pool_probability": 0.25,
+        "relic_count": 2,
+        "probability_each": 0.125
+      },
+      {
+        "chest": "bastion_treasure",
+        "pool_probability": 0.25,
+        "relic_count": 1,
+        "probability_each": 0.25
+      },
+      {
+        "chest": "desert_pyramid",
+        "pool_probability": 0.15,
+        "relic_count": 1,
+        "probability_each": 0.15
+      },
+      {
+        "chest": "end_city_treasure",
+        "pool_probability": 0.35,
+        "relic_count": 6,
+        "probability_each_exact": "0.35/6"
+      }
+    ],
+    "relic_inheritance": "9 reliques suivies : 4 × uses=100, 5 × xp=100. Le Serment des Cendres (golden_axe) est narratif, explicitement annoncé sans progression artificielle dans INSTALLATION_v0.17.1.txt.",
+    "substantive_enchantment_effect_changes_overlay94": {
+      "weapon_familiarity": "Remplace item_damage multiply 0.9,-0.1 par réparation post_attack directe de 3/4/5/6 points avec chance 6/9/12/15 %.",
+      "armor_familiarity": "Remplace item_damage multiply 0.9,-0.1 par réparation post_attack de 2/3/4/5 points avec chance 4/6/8/10 %.",
+      "forged_shot": "Projectile : run_function multiplicateur1.1 remplacé par apply_impulse magnitude0.03L.",
+      "crossbow_mastery": "Projectile : run_function multiplicateur1.1 remplacé par apply_impulse magnitude0.02L.",
+      "longshot": "Projectile : run_function multiplicateur1.1 remplacé par apply_impulse magnitude0.1 fixe."
+    },
+    "recipe_overlay_details": "Tous motifs, quantités, durabilités et potentiels sont conservés. Overlay57 ajoute repairable/enchantable aux boucliers ; overlay61+ remplace custom_model_data par item_model. Le filtre smithing netherite accepte minecraft:shield, sans exiger le matériau diamant."
+  },
+  "issues": [
+    {
+      "id": "tome_rank_cascade",
+      "severity": "high",
+      "status": "Conséquence statique directe, à confirmer en jeu",
+      "title": "Un clic peut acheter plusieurs rangs de tome successifs",
+      "evidence": "Les conditions de try consultent successivement le rang courant. Une fonction level_N réussie modifie immédiatement ce rang avant le test suivant ; elle ne retourne pas depuis la fonction appelante. Les fonctions level_N ne vérifient pas la présence du tome, et ne conditionnent pas la suite au succès du clear du tome.",
+      "example": "Avec rang Vitalité 0, un seul tome, 32 blocs de lapis et au moins 61 niveaux disponibles, le chemin commande peut aller jusqu’à Vitalité V en un clic. Chaque coût de lapis et de niveaux est vérifié et prélevé ; les clear de tomes des rangs ultérieurs peuvent échouer sans empêcher les rangs.",
+      "sources": [
+        {
+          "path": "data/attuned/function/tomes/vitality/try.mcfunction",
+          "line_start": 2,
+          "line_end": 8
+        },
+        {
+          "path": "data/attuned/function/tomes/vitality/level_1.mcfunction",
+          "line_start": 1,
+          "line_end": 13
+        },
+        {
+          "path": "data/attuned/function/tomes/vitality/level_2.mcfunction",
+          "line_start": 1,
+          "line_end": 13
+        },
+        {
+          "path": "data/attuned/function/tomes/vigor/try.mcfunction",
+          "line_start": 2,
+          "line_end": 6
+        },
+        {
+          "path": "data/attuned/function/tomes/dexterity/try.mcfunction",
+          "line_start": 2,
+          "line_end": 6
+        }
+      ],
+      "suggestion": "Lors d’une future correction autorisée, choisir le rang une seule fois (ou return run function au bon rang) et revérifier la quantité de tome avant le prélèvement."
+    },
+    {
+      "id": "villager_trade_registry_after_target_versions",
+      "severity": "medium",
+      "status": "Confirmé par annonce officielle de registre",
+      "title": "Les 36 échanges sont dormants sur la cible Java 1.21.x",
+      "evidence": "Le pack contient uniquement les définitions villager_trade et leurs tags. Ce registre a été introduit dans Java 26.1, après la plage 1.21.x annoncée. Aucune fonction locale d’injection Offers n’a été identifiée.",
+      "sources": [
+        {
+          "path": "data/attuned/villager_trade/cleric/vitality.json",
+          "line_start": 1,
+          "line_end": 31
+        },
+        {
+          "path": "data/minecraft/tags/villager_trade/cleric/level_5.json",
+          "line_start": 1,
+          "line_end": 8
+        }
+      ],
+      "external_source": "https://www.minecraft.net/en-us/article/minecraft-java-edition-26-1",
+      "suggestion": "Conserver la liste comme catalogue de préparation ; ne pas annoncer ces échanges comme accessibles en survie 1.21.x et ne pas déduire une compatibilité 26.1 du seul registre."
+    },
+    {
+      "id": "trial_vault_trigger_not_demonstrated",
+      "severity": "verification",
+      "status": "Branche présente, déclenchement réel non établi",
+      "title": "Bonus de livres des coffres-forts des épreuves à tester",
+      "evidence": "Deux advancements écoutent player_generates_container_loot pour reward/reward_ominous. La présence de la bonne table ne prouve pas que le Vault émet cet événement. Aucun essai de Vault ni preuve primaire de ce point ne fait partie de cette analyse.",
+      "sources": [
+        {
+          "path": "data/attuned/advancement/loot/trial_reward.json",
+          "line_start": 1,
+          "line_end": 13
+        },
+        {
+          "path": "data/attuned/advancement/loot/trial_ominous.json",
+          "line_start": 1,
+          "line_end": 13
+        },
+        {
+          "path": "data/attuned/function/loot/structure/trial_reward.mcfunction",
+          "line_start": 1,
+          "line_end": 10
+        },
+        {
+          "path": "data/attuned/function/loot/structure/trial_ominous.mcfunction",
+          "line_start": 1,
+          "line_end": 10
+        }
+      ],
+      "suggestion": "Tester un coffre-fort neuf normal et menaçant avant de transformer les chances prévues en promesse de disponibilité."
+    },
+    {
+      "id": "mastery_two_total_label",
+      "severity": "low",
+      "status": "Écart entre formulation UI et opérations",
+      "title": "Le texte « deux enchantements au total » décrit mal les objets déjà enchantés",
+      "evidence": "Le menu annonce deux enchantements au total, mais l’application choisit un enchantement et au plus un bonus sans compter les enchantements déjà présents. Les modificateurs set_enchantments ne vident pas explicitement les autres entrées.",
+      "sources": [
+        {
+          "path": "data/attuned/function/compat/menu/enchanting/main.mcfunction",
+          "line_start": 1,
+          "line_end": 2
+        },
+        {
+          "path": "data/attuned/function/enchanting/mastery/apply/attuned_excavation.mcfunction",
+          "line_start": 13,
+          "line_end": 24
+        },
+        {
+          "path": "data/attuned/item_modifier/enchanting/mastery/attuned_excavation.json",
+          "line_start": 1,
+          "line_end": 7
+        }
+      ],
+      "suggestion": "Dans le wiki, écrire « un enchantement choisi et au plus un bonus supplémentaire »."
+    },
+    {
+      "id": "lunge_standard_level1_unselected",
+      "severity": "low",
+      "status": "Déduction statique des seuils",
+      "title": "Le menu standard Lunge ne sélectionne jamais le rang I",
+      "evidence": "Le dispatcher exige une puissance d’au moins 12 puis sélectionne déjà le niveau II dès 8 ; le niveau III est sélectionné à 15. Ainsi le niveauI existe en fonction mais n’est pas atteint par ce menu. Les fonctions réelles sont activées par overlay94 ; la base renvoie un message nécessitant 1.21.11.",
+      "sources": [
+        {
+          "path": "data/attuned/function/enchanting/vanilla_apply/lunge.mcfunction",
+          "line_start": 1,
+          "line_end": 10
+        },
+        {
+          "path": "data/attuned/function/enchanting/vanilla_apply/lunge_1.mcfunction",
+          "line_start": 1,
+          "line_end": 2
+        }
+      ],
+      "suggestion": "Conserver les plages exactes dans le catalogue ; demander une décision de conception avant de changer le seuil."
+    }
+  ],
+  "non_issues_or_distinctions": [
+    "Le Serment des Cendres sans tracked/history100 est une exception narrative intentionnelle, et non une erreur d’initialisation généralisée.",
+    "Le max_level5 de plusieurs enchantements n’implique pas un accès V dans tous les menus. Les plafonds standards et cibles de Maîtrise ont été extraits séparément.",
+    "Les 24 branches de bonus de livres n’équivalent pas à 24 remplacements de loot tables ; seulement 4 tables Minecraft sont effectivement remplacées pour les reliques.",
+    "Les bonus classiques sont conditionnels, au plus 1 ; 5/10/18 essais ne désignent pas des pourcentages fixes.",
+    "Les anciens et nouveaux effets d’overlay ne se cumulent pas.",
+    "Les sorts portant un nom évocateur ne font que les effets codés : Bûcheron n’a pas d’abattage complet d’arbre ; Vision abyssale ne donne pas Vision nocturne."
+  ],
+  "deliverables": {
+    "pages": [
+      "Enchantements.md",
+      "Tomes-et-savoirs.md",
+      "Reliques-et-butin.md",
+      "Recettes.md",
+      "Echanges-prepares.md"
+    ],
+    "catalogue_pairs": [
+      "enchantements",
+      "couts-savoirs-attuned",
+      "couts-savoirs-vanilla",
+      "tomes",
+      "livres",
+      "butin-livres",
+      "reliques",
+      "recettes",
+      "echanges-prepares"
+    ]
+  },
+  "validation_performed": [
+    "9 jeux JSON chargés et exportés en CSV UTF8BOM",
+    "73 enchantements présents une seule fois dans les 7 groupes de la page",
+    "Toutes les références path/line des catalogues pointent vers les fichiers source présents",
+    "Comparaison systématique des effets d’overlays après normalisation des préfixes d’attributs",
+    "Comparaison sémantique des 15 recettes dans les 6 overlays",
+    "Revue complète des fonctions set_custom_data de chacune des 10 reliques",
+    "Lecture complète des 3 try de tomes et des 11 fonctions level_N ; aucune correction du pack effectuée"
+  ]
+}

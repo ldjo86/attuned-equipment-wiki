@@ -1,0 +1,376 @@
+[
+  {
+    "id": "anchor_of_stars",
+    "name_fr": "L'Ancre des Étoiles",
+    "item": "minecraft:diamond_pickaxe",
+    "item_name_fr": "Pioche en diamant",
+    "lore_fr": [
+      "Les bâtisseurs creusaient pour ancrer leur cité.",
+      "Sous la pierre pâle, ils ne trouvèrent que le vide.",
+      "Le maître posa sa pioche : « Alors, nous flotterons. »",
+      "La première tour tient toujours."
+    ],
+    "enchantments": {
+      "minecraft:efficiency": 3,
+      "minecraft:unbreaking": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"pickaxe\",material:\"diamond\",evolution:0,evolution_cap:3,history:{uses:0},natural_unlocks:0,unlocks:{},applied:{}}}",
+      "{attuned:{relic:{id:\"anchor_of_stars\",origin:\"end_city_treasure\",version:1},history:{uses:100,stone:80,ores:20}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{uses:100,stone:80,ores:20}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/anchor_of_stars.json",
+      "line_start": 1,
+      "line_end": 45
+    },
+    "chest": "end_city_treasure",
+    "pool_chance": 0.35,
+    "individual_chance": 0.05833333333333333,
+    "pool_entry_count": 6,
+    "pool_index_zero_based": 2,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/end_city_treasure.json",
+      "line_start": 360,
+      "line_end": 386
+    }
+  },
+  {
+    "id": "ash_oath",
+    "name_fr": "Le Serment des Cendres",
+    "item": "minecraft:golden_axe",
+    "item_name_fr": "Hache en or",
+    "lore_fr": [
+      "Le gardien jura de ne jamais abandonner le trésor.",
+      "Quand les remparts brûlèrent, il ouvrit les portes.",
+      "Son clan valait plus que tout l'or du bastion.",
+      "La hache resta pour témoigner de son choix."
+    ],
+    "enchantments": {
+      "minecraft:sharpness": 3,
+      "minecraft:unbreaking": 3
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{relic:{id:\"ash_oath\",origin:\"bastion_treasure\",version:1}}}"
+    ],
+    "has_tracking_initializer": false,
+    "history_seed_snbt": null,
+    "source": {
+      "path": "data/attuned/loot_table/relics/ash_oath.json",
+      "line_start": 1,
+      "line_end": 41
+    },
+    "chest": "bastion_treasure",
+    "pool_chance": 0.25,
+    "individual_chance": 0.25,
+    "pool_entry_count": 1,
+    "pool_index_zero_based": 4,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/bastion_treasure.json",
+      "line_start": 391,
+      "line_end": 397
+    }
+  },
+  {
+    "id": "echo_warden",
+    "name_fr": "La Moisson des Échos",
+    "item": "minecraft:diamond_hoe",
+    "item_name_fr": "Houe en diamant",
+    "lore_fr": [
+      "Avant le silence, ces salles abritaient des jardins.",
+      "Une jardinière coupa les racines noires chaque nuit.",
+      "Au matin, elles avaient appris le bruit de ses pas.",
+      "Elle laissa son outil et partit sans un mot."
+    ],
+    "enchantments": {
+      "minecraft:efficiency": 3,
+      "minecraft:unbreaking": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"hoe\",material:\"diamond\",evolution:0,evolution_cap:3,history:{uses:0},natural_unlocks:0,unlocks:{},applied:{}}}",
+      "{attuned:{relic:{id:\"echo_warden\",origin:\"ancient_city\",version:1},history:{uses:100}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{uses:100}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/echo_warden.json",
+      "line_start": 1,
+      "line_end": 45
+    },
+    "chest": "ancient_city",
+    "pool_chance": 0.25,
+    "individual_chance": 0.125,
+    "pool_entry_count": 2,
+    "pool_index_zero_based": 2,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/ancient_city.json",
+      "line_start": 438,
+      "line_end": 448
+    }
+  },
+  {
+    "id": "homeward_steps",
+    "name_fr": "Les Pas du Retour",
+    "item": "minecraft:diamond_boots",
+    "item_name_fr": "Bottes en diamant",
+    "lore_fr": [
+      "Le mousse sautait de coque en coque, au-dessus du vide.",
+      "Il promettait de revoir les pluies de son village.",
+      "Ses bottes furent retrouvées au bord d'un portail.",
+      "Peut-être a-t-il enfin tenu parole."
+    ],
+    "enchantments": {
+      "minecraft:feather_falling": 4,
+      "minecraft:protection": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"boots\",material:\"armor\",evolution:0,evolution_cap:5,history:{xp:0,hits:0,danger_hits:0,nether_hits:0,projectile_hits:0,fire_hits:0,explosion_hits:0,fall_hits:0,walk_segments:0,sprint_segments:0,crouch_segments:0,swim_segments:0},natural_unlocks:0,unlocks:{},applied:{},armor_v12:1b}}",
+      "{attuned:{material:\"diamond\",evolution_cap:3}}",
+      "{attuned:{relic:{id:\"homeward_steps\",origin:\"end_city_treasure\",version:1},history:{xp:100,walk_segments:80,fall_hits:12}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{xp:100,walk_segments:80,fall_hits:12}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/homeward_steps.json",
+      "line_start": 1,
+      "line_end": 49
+    },
+    "chest": "end_city_treasure",
+    "pool_chance": 0.35,
+    "individual_chance": 0.05833333333333333,
+    "pool_entry_count": 6,
+    "pool_index_zero_based": 2,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/end_city_treasure.json",
+      "line_start": 360,
+      "line_end": 386
+    }
+  },
+  {
+    "id": "last_bridge",
+    "name_fr": "Le Dernier Pont",
+    "item": "minecraft:diamond_sword",
+    "item_name_fr": "Épée en diamant",
+    "lore_fr": [
+      "Nara tint le pont de purpur jusqu'à l'aube.",
+      "Derrière elle, les derniers exilés embarquèrent.",
+      "Le navire revint. Sa gardienne, jamais.",
+      "Sur la lame : « Qu'un autre trouve le retour. »"
+    ],
+    "enchantments": {
+      "minecraft:sharpness": 3,
+      "minecraft:unbreaking": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"sword\",material:\"diamond\",evolution:0,evolution_cap:3,history:{uses:0},natural_unlocks:0,unlocks:{},applied:{}}}",
+      "{attuned:{relic:{id:\"last_bridge\",origin:\"end_city_treasure\",version:1},history:{uses:100}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{uses:100}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/last_bridge.json",
+      "line_start": 1,
+      "line_end": 45
+    },
+    "chest": "end_city_treasure",
+    "pool_chance": 0.35,
+    "individual_chance": 0.05833333333333333,
+    "pool_entry_count": 6,
+    "pool_index_zero_based": 2,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/end_city_treasure.json",
+      "line_start": 360,
+      "line_end": 386
+    }
+  },
+  {
+    "id": "silent_watch",
+    "name_fr": "La Veille Silencieuse",
+    "item": "minecraft:diamond_chestplate",
+    "item_name_fr": "Plastron en diamant",
+    "lore_fr": [
+      "Ce plastron protégea le veilleur du dernier quai.",
+      "Il allumait une lanterne pour les vaisseaux perdus.",
+      "Quand le ciel se tut, il resta à son poste.",
+      "Le métal garde encore la chaleur de la flamme."
+    ],
+    "enchantments": {
+      "minecraft:protection": 3,
+      "minecraft:unbreaking": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"chestplate\",material:\"armor\",evolution:0,evolution_cap:5,history:{xp:0,hits:0,danger_hits:0,nether_hits:0,projectile_hits:0,fire_hits:0,explosion_hits:0,fall_hits:0,walk_segments:0,sprint_segments:0,crouch_segments:0,swim_segments:0},natural_unlocks:0,unlocks:{},applied:{},armor_v12:1b}}",
+      "{attuned:{material:\"diamond\",evolution_cap:3}}",
+      "{attuned:{relic:{id:\"silent_watch\",origin:\"end_city_treasure\",version:1},history:{xp:100,hits:80,projectile_hits:30}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{xp:100,hits:80,projectile_hits:30}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/silent_watch.json",
+      "line_start": 1,
+      "line_end": 49
+    },
+    "chest": "end_city_treasure",
+    "pool_chance": 0.35,
+    "individual_chance": 0.05833333333333333,
+    "pool_entry_count": 6,
+    "pool_index_zero_based": 2,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/end_city_treasure.json",
+      "line_start": 360,
+      "line_end": 386
+    }
+  },
+  {
+    "id": "star_cartographer",
+    "name_fr": "Heaume de la Cartographe",
+    "item": "minecraft:diamond_helmet",
+    "item_name_fr": "Casque en diamant",
+    "lore_fr": [
+      "Ilyne comptait les îles, jamais les jours.",
+      "Chaque entaille désignait un port disparu.",
+      "La dernière pointe vers une étoile immobile.",
+      "Personne n'a retrouvé cette route."
+    ],
+    "enchantments": {
+      "minecraft:protection": 3,
+      "minecraft:respiration": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"helmet\",material:\"armor\",evolution:0,evolution_cap:5,history:{xp:0,hits:0,danger_hits:0,nether_hits:0,projectile_hits:0,fire_hits:0,explosion_hits:0,fall_hits:0,walk_segments:0,sprint_segments:0,crouch_segments:0,swim_segments:0},natural_unlocks:0,unlocks:{},applied:{},armor_v12:1b}}",
+      "{attuned:{material:\"diamond\",evolution_cap:3}}",
+      "{attuned:{relic:{id:\"star_cartographer\",origin:\"end_city_treasure\",version:1},history:{xp:100,hits:60,projectile_hits:25}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{xp:100,hits:60,projectile_hits:25}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/star_cartographer.json",
+      "line_start": 1,
+      "line_end": 49
+    },
+    "chest": "end_city_treasure",
+    "pool_chance": 0.35,
+    "individual_chance": 0.05833333333333333,
+    "pool_entry_count": 6,
+    "pool_index_zero_based": 2,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/end_city_treasure.json",
+      "line_start": 360,
+      "line_end": 386
+    }
+  },
+  {
+    "id": "sunken_sun",
+    "name_fr": "Le Soleil Enseveli",
+    "item": "minecraft:iron_shovel",
+    "item_name_fr": "Pelle en fer",
+    "lore_fr": [
+      "Un fossoyeur refusa d'enterrer le nom de sa reine.",
+      "Il traça sa vie sur les marches du temple.",
+      "Le sable effaça les mots, mais épargna son outil.",
+      "Chaque grain porte peut-être un fragment du récit."
+    ],
+    "enchantments": {
+      "minecraft:efficiency": 2,
+      "minecraft:unbreaking": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"shovel\",material:\"iron\",evolution:0,evolution_cap:5,history:{uses:0},natural_unlocks:0,unlocks:{},applied:{}}}",
+      "{attuned:{relic:{id:\"sunken_sun\",origin:\"desert_pyramid\",version:1},history:{uses:100}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{uses:100}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/sunken_sun.json",
+      "line_start": 1,
+      "line_end": 45
+    },
+    "chest": "desert_pyramid",
+    "pool_chance": 0.15,
+    "individual_chance": 0.15,
+    "pool_entry_count": 1,
+    "pool_index_zero_based": 3,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/desert_pyramid.json",
+      "line_start": 289,
+      "line_end": 295
+    }
+  },
+  {
+    "id": "unstruck_bell",
+    "name_fr": "Le Vœu du Silence",
+    "item": "minecraft:diamond_boots",
+    "item_name_fr": "Bottes en diamant",
+    "lore_fr": [
+      "Le sonneur comprit trop tard ce qui répondait.",
+      "Il enveloppa ses bottes et descendit seul.",
+      "La cloche ne sonna plus jamais.",
+      "Dans le cuir subsiste une poussière de bronze."
+    ],
+    "enchantments": {
+      "minecraft:feather_falling": 3,
+      "minecraft:protection": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"boots\",material:\"armor\",evolution:0,evolution_cap:5,history:{xp:0,hits:0,danger_hits:0,nether_hits:0,projectile_hits:0,fire_hits:0,explosion_hits:0,fall_hits:0,walk_segments:0,sprint_segments:0,crouch_segments:0,swim_segments:0},natural_unlocks:0,unlocks:{},applied:{},armor_v12:1b}}",
+      "{attuned:{material:\"diamond\",evolution_cap:3}}",
+      "{attuned:{relic:{id:\"unstruck_bell\",origin:\"ancient_city\",version:1},history:{xp:100,crouch_segments:100}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{xp:100,crouch_segments:100}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/unstruck_bell.json",
+      "line_start": 1,
+      "line_end": 49
+    },
+    "chest": "ancient_city",
+    "pool_chance": 0.25,
+    "individual_chance": 0.125,
+    "pool_entry_count": 2,
+    "pool_index_zero_based": 2,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/ancient_city.json",
+      "line_start": 438,
+      "line_end": 448
+    }
+  },
+  {
+    "id": "void_pilgrim",
+    "name_fr": "Grèves du Pèlerin du Vide",
+    "item": "minecraft:diamond_leggings",
+    "item_name_fr": "Jambières en diamant",
+    "lore_fr": [
+      "Un pèlerin traversa cent îles sans chercher d'or.",
+      "Il portait les noms de ceux restés derrière.",
+      "Au dernier sanctuaire, il grava : « Je me souviens. »",
+      "Le voyage attend désormais d'autres pas."
+    ],
+    "enchantments": {
+      "minecraft:protection": 3,
+      "minecraft:unbreaking": 2
+    },
+    "all_custom_data_snbt_in_order": [
+      "{attuned:{tracked:1b,type:\"leggings\",material:\"armor\",evolution:0,evolution_cap:5,history:{xp:0,hits:0,danger_hits:0,nether_hits:0,projectile_hits:0,fire_hits:0,explosion_hits:0,fall_hits:0,walk_segments:0,sprint_segments:0,crouch_segments:0,swim_segments:0},natural_unlocks:0,unlocks:{},applied:{},armor_v12:1b}}",
+      "{attuned:{material:\"diamond\",evolution_cap:3}}",
+      "{attuned:{relic:{id:\"void_pilgrim\",origin:\"end_city_treasure\",version:1},history:{xp:100,walk_segments:100,sprint_segments:30}}}"
+    ],
+    "has_tracking_initializer": true,
+    "history_seed_snbt": "{xp:100,walk_segments:100,sprint_segments:30}}}",
+    "source": {
+      "path": "data/attuned/loot_table/relics/void_pilgrim.json",
+      "line_start": 1,
+      "line_end": 49
+    },
+    "chest": "end_city_treasure",
+    "pool_chance": 0.35,
+    "individual_chance": 0.05833333333333333,
+    "pool_entry_count": 6,
+    "pool_index_zero_based": 2,
+    "loot_source": {
+      "path": "data/minecraft/loot_table/chests/end_city_treasure.json",
+      "line_start": 360,
+      "line_end": 386
+    }
+  }
+]
